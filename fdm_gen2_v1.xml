@@ -1,0 +1,3033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/jinyongkim/Documents/Kicad/fdm_gen2_v1/fdm_gen2_v1.sch</source>
+    <date>Wednesday, October 14, 2020 at 10:03:35 PM</date>
+    <tool>Eeschema (5.1.7-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>v1</rev>
+        <date>2020-10-04</date>
+        <source>fdm_gen2_v1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Top Schematic for FDM Gen2 IC Test Board"/>
+        <comment number="4" value="Author: Richard"/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/core/" tstamps="/5FA33148/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>v1</rev>
+        <date>2020-10-04</date>
+        <source>IC_core.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Schematic for pin-out around IC"/>
+        <comment number="4" value="Author: Richard"/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Regulator_PVDD/" tstamps="/5FD41281/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>linear_regulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Regulator_BE_AVDD/" tstamps="/5FD4A42F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>linear_regulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Regulator_BE_ADC_VDD/" tstamps="/5FD4A441/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>linear_regulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Regulator_BE_VCM/" tstamps="/5FD4A465/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>linear_regulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Regulator_BE_ADC_VREFN/" tstamps="/5FD4A46A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>linear_regulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Regulator_BE_ADC_VREFP/" tstamps="/5FD4A46F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>linear_regulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Regulator_FPGA/" tstamps="/5FD4A606/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>linear_regulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/instance_FPGA/" tstamps="/5FD5A201/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>2020-10-04</date>
+        <source>FPGA.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Author: Richard"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J8">
+      <value>SMA_ADC_CLK_EXT</value>
+      <footprint>OSU_SIM_BASIC:SMA_TE</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="SMA-OSU_SIM_BASIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD78BC3</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>SMA_BE_IN</value>
+      <footprint>OSU_SIM_BASIC:SMA_TE</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="SMA-OSU_SIM_BASIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD791E3</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>BANA_PWR</value>
+      <footprint>MountingHole:MountingHole_6.4mm_M6_Pad</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="BANA_PWR-fdm_gen2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD7B6FE</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>BANA_PWR</value>
+      <footprint>MountingHole:MountingHole_6.4mm_M6_Pad</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="BANA_PWR-fdm_gen2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD7B76E</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>SMA_VDD_5p5</value>
+      <footprint>OSU_SIM_BASIC:SMA_TE</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="SMA-OSU_SIM_BASIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD8465C</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>SMA_FPGA_VDD</value>
+      <footprint>OSU_SIM_BASIC:SMA_TE</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="SMA-OSU_SIM_BASIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD84FC2</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x03_Male-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDA37B9</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>SMA_ON_RF</value>
+      <footprint>OSU_SIM_BASIC:SMA_TE</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="SMA-OSU_SIM_BASIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE35C56</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>SMA_OP_RF</value>
+      <footprint>OSU_SIM_BASIC:SMA_TE</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="SMA-OSU_SIM_BASIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE35C5D</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>SMA_FPGA_CLK_EXT</value>
+      <footprint>OSU_SIM_BASIC:SMA_TE</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="SMA-OSU_SIM_BASIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE6953C</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>SMA_BE_EXT_IB</value>
+      <footprint>OSU_SIM_BASIC:SMA_TE</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="SMA-OSU_SIM_BASIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEDA44F</tstamp>
+    </comp>
+    <comp ref="J20">
+      <value>Conn_01x13_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x13_Male-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFAB683</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>Ferrite_Bead</value>
+      <footprint>OSU_SIM_BASIC:L_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Ferrite_Bead-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6058D72C</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>DEBOUNCER</value>
+      <footprint>OSU_SIM_BASIC:SOT-143_Handsoldering</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="DEBOUNCER-OSU_SIM_old" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605E5941</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x03_Male-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60670716</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x03_Male-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606B2D6A</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x03_Male-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6072A15F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>200k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60761598</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TACTILE-SWITCH</value>
+      <footprint>OSU_SIM_BASIC:TL3305AF160QG</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="TACTILE-SWITCH-fdm_gen2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A28255</tstamp>
+    </comp>
+    <comp ref="J18">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AEC9D4</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B89C0B</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B99089</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>1M</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BB7CDE</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BB7CE5</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BD7F9E</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BD7FA5</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C1BAFA</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D2C366</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D2CBAA</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D9D1D2</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D9D1D9</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E4766E</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E4785C</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x01-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EE9916</tstamp>
+    </comp>
+    <comp ref="J19">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x01-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFBB1C</tstamp>
+    </comp>
+    <comp ref="J21">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x01-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F0DB3B</tstamp>
+    </comp>
+    <comp ref="J22">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x01-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F0DB42</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>500u</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="CP1-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8140A8</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8142D0</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F82775F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F53C5</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F53CC</tstamp>
+    </comp>
+    <comp ref="J43">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F810AD4</tstamp>
+    </comp>
+    <comp ref="C63">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8AEC2B</tstamp>
+    </comp>
+    <comp ref="J42">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F96B36F</tstamp>
+    </comp>
+    <comp ref="C62">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F96B377</tstamp>
+    </comp>
+    <comp ref="J41">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F995CF0</tstamp>
+    </comp>
+    <comp ref="C61">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F995CF8</tstamp>
+    </comp>
+    <comp ref="J44">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F973B8A</tstamp>
+    </comp>
+    <comp ref="J45">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x01-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA3C481</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>PLCC_84</value>
+      <footprint>OSU_SIM_BASIC:PLCC_84POS</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="PLCC_84-OSU_SIM_BASIC" description=""/>
+      <sheetpath names="/core/" tstamps="/5FA33148/"/>
+      <tstamp>5FA33170</tstamp>
+    </comp>
+    <comp ref="J24">
+      <value>Conn_02x10_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_02x10_Odd_Even-Connector_Generic" description=""/>
+      <sheetpath names="/core/" tstamps="/5FA33148/"/>
+      <tstamp>5FAAFF81</tstamp>
+    </comp>
+    <comp ref="J23">
+      <value>Conn_02x16_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_02x16_Odd_Even-Connector_Generic" description=""/>
+      <sheetpath names="/core/" tstamps="/5FA33148/"/>
+      <tstamp>5F813408</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="DK_Num">1276-7034-1-ND</field>
+      </fields>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_PVDD/" tstamps="/5FD41281/"/>
+      <tstamp>5D49411D</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="DK_Num">1276-3178-1-ND</field>
+      </fields>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_PVDD/" tstamps="/5FD41281/"/>
+      <tstamp>5D494125</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_PVDD/" tstamps="/5FD41281/"/>
+      <tstamp>5D494111</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Regulator_PVDD/" tstamps="/5FD41281/"/>
+      <tstamp>5D494133</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Regulator_PVDD/" tstamps="/5FD41281/"/>
+      <tstamp>5D494136</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_PVDD/" tstamps="/5FD41281/"/>
+      <tstamp>5D494147</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_PVDD/" tstamps="/5FD41281/"/>
+      <tstamp>5D494158</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_PVDD/" tstamps="/5FD41281/"/>
+      <tstamp>5D494161</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>Ferrite_Bead</value>
+      <footprint>OSU_SIM_BASIC:L_1206_HandSoldering</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="Ferrite_Bead-Device" description=""/>
+      <sheetpath names="/Regulator_PVDD/" tstamps="/5FD41281/"/>
+      <tstamp>5D598768</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_PVDD/" tstamps="/5FD41281/"/>
+      <tstamp>5D494144</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LT3042</value>
+      <footprint>Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="LT3042-OSU_SIM_old" description=""/>
+      <sheetpath names="/Regulator_PVDD/" tstamps="/5FD41281/"/>
+      <tstamp>5FD423B9</tstamp>
+    </comp>
+    <comp ref="J26">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/Regulator_PVDD/" tstamps="/5FD41281/"/>
+      <tstamp>5FD42BB2</tstamp>
+    </comp>
+    <comp ref="J25">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/Regulator_PVDD/" tstamps="/5FD41281/"/>
+      <tstamp>5FD453FE</tstamp>
+    </comp>
+    <comp ref="RV4">
+      <value>R_POT</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/Regulator_PVDD/" tstamps="/5FD41281/"/>
+      <tstamp>60B8646E</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="DK_Num">1276-7034-1-ND</field>
+      </fields>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_AVDD/" tstamps="/5FD4A42F/"/>
+      <tstamp>5D49411D</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="DK_Num">1276-3178-1-ND</field>
+      </fields>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_AVDD/" tstamps="/5FD4A42F/"/>
+      <tstamp>5D494125</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_AVDD/" tstamps="/5FD4A42F/"/>
+      <tstamp>5D494111</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Regulator_BE_AVDD/" tstamps="/5FD4A42F/"/>
+      <tstamp>5D494133</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Regulator_BE_AVDD/" tstamps="/5FD4A42F/"/>
+      <tstamp>5D494136</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_AVDD/" tstamps="/5FD4A42F/"/>
+      <tstamp>5D494147</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_AVDD/" tstamps="/5FD4A42F/"/>
+      <tstamp>5D494158</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_AVDD/" tstamps="/5FD4A42F/"/>
+      <tstamp>5D494161</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>Ferrite_Bead</value>
+      <footprint>OSU_SIM_BASIC:L_1206_HandSoldering</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="Ferrite_Bead-Device" description=""/>
+      <sheetpath names="/Regulator_BE_AVDD/" tstamps="/5FD4A42F/"/>
+      <tstamp>5D598768</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_AVDD/" tstamps="/5FD4A42F/"/>
+      <tstamp>5D494144</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>LT3042</value>
+      <footprint>Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="LT3042-OSU_SIM_old" description=""/>
+      <sheetpath names="/Regulator_BE_AVDD/" tstamps="/5FD4A42F/"/>
+      <tstamp>5FD423B9</tstamp>
+    </comp>
+    <comp ref="J28">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/Regulator_BE_AVDD/" tstamps="/5FD4A42F/"/>
+      <tstamp>5FD42BB2</tstamp>
+    </comp>
+    <comp ref="J27">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/Regulator_BE_AVDD/" tstamps="/5FD4A42F/"/>
+      <tstamp>5FD453FE</tstamp>
+    </comp>
+    <comp ref="RV5">
+      <value>R_POT</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/Regulator_BE_AVDD/" tstamps="/5FD4A42F/"/>
+      <tstamp>60B8646E</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="DK_Num">1276-7034-1-ND</field>
+      </fields>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VDD/" tstamps="/5FD4A441/"/>
+      <tstamp>5D49411D</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="DK_Num">1276-3178-1-ND</field>
+      </fields>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VDD/" tstamps="/5FD4A441/"/>
+      <tstamp>5D494125</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VDD/" tstamps="/5FD4A441/"/>
+      <tstamp>5D494111</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VDD/" tstamps="/5FD4A441/"/>
+      <tstamp>5D494133</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VDD/" tstamps="/5FD4A441/"/>
+      <tstamp>5D494136</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VDD/" tstamps="/5FD4A441/"/>
+      <tstamp>5D494147</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VDD/" tstamps="/5FD4A441/"/>
+      <tstamp>5D494158</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VDD/" tstamps="/5FD4A441/"/>
+      <tstamp>5D494161</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>Ferrite_Bead</value>
+      <footprint>OSU_SIM_BASIC:L_1206_HandSoldering</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="Ferrite_Bead-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VDD/" tstamps="/5FD4A441/"/>
+      <tstamp>5D598768</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VDD/" tstamps="/5FD4A441/"/>
+      <tstamp>5D494144</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>LT3042</value>
+      <footprint>Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="LT3042-OSU_SIM_old" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VDD/" tstamps="/5FD4A441/"/>
+      <tstamp>5FD423B9</tstamp>
+    </comp>
+    <comp ref="J30">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VDD/" tstamps="/5FD4A441/"/>
+      <tstamp>5FD42BB2</tstamp>
+    </comp>
+    <comp ref="J29">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VDD/" tstamps="/5FD4A441/"/>
+      <tstamp>5FD453FE</tstamp>
+    </comp>
+    <comp ref="RV6">
+      <value>R_POT</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VDD/" tstamps="/5FD4A441/"/>
+      <tstamp>60B8646E</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="DK_Num">1276-7034-1-ND</field>
+      </fields>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_VCM/" tstamps="/5FD4A465/"/>
+      <tstamp>5D49411D</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="DK_Num">1276-3178-1-ND</field>
+      </fields>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_VCM/" tstamps="/5FD4A465/"/>
+      <tstamp>5D494125</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_VCM/" tstamps="/5FD4A465/"/>
+      <tstamp>5D494111</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Regulator_BE_VCM/" tstamps="/5FD4A465/"/>
+      <tstamp>5D494133</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Regulator_BE_VCM/" tstamps="/5FD4A465/"/>
+      <tstamp>5D494136</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_VCM/" tstamps="/5FD4A465/"/>
+      <tstamp>5D494147</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_VCM/" tstamps="/5FD4A465/"/>
+      <tstamp>5D494158</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_VCM/" tstamps="/5FD4A465/"/>
+      <tstamp>5D494161</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>Ferrite_Bead</value>
+      <footprint>OSU_SIM_BASIC:L_1206_HandSoldering</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="Ferrite_Bead-Device" description=""/>
+      <sheetpath names="/Regulator_BE_VCM/" tstamps="/5FD4A465/"/>
+      <tstamp>5D598768</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_VCM/" tstamps="/5FD4A465/"/>
+      <tstamp>5D494144</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>LT3042</value>
+      <footprint>Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="LT3042-OSU_SIM_old" description=""/>
+      <sheetpath names="/Regulator_BE_VCM/" tstamps="/5FD4A465/"/>
+      <tstamp>5FD423B9</tstamp>
+    </comp>
+    <comp ref="J32">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/Regulator_BE_VCM/" tstamps="/5FD4A465/"/>
+      <tstamp>5FD42BB2</tstamp>
+    </comp>
+    <comp ref="J31">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/Regulator_BE_VCM/" tstamps="/5FD4A465/"/>
+      <tstamp>5FD453FE</tstamp>
+    </comp>
+    <comp ref="RV7">
+      <value>R_POT</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/Regulator_BE_VCM/" tstamps="/5FD4A465/"/>
+      <tstamp>60B8646E</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="DK_Num">1276-7034-1-ND</field>
+      </fields>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFN/" tstamps="/5FD4A46A/"/>
+      <tstamp>5D49411D</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="DK_Num">1276-3178-1-ND</field>
+      </fields>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFN/" tstamps="/5FD4A46A/"/>
+      <tstamp>5D494125</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFN/" tstamps="/5FD4A46A/"/>
+      <tstamp>5D494111</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFN/" tstamps="/5FD4A46A/"/>
+      <tstamp>5D494133</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFN/" tstamps="/5FD4A46A/"/>
+      <tstamp>5D494136</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFN/" tstamps="/5FD4A46A/"/>
+      <tstamp>5D494147</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFN/" tstamps="/5FD4A46A/"/>
+      <tstamp>5D494158</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFN/" tstamps="/5FD4A46A/"/>
+      <tstamp>5D494161</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>Ferrite_Bead</value>
+      <footprint>OSU_SIM_BASIC:L_1206_HandSoldering</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="Ferrite_Bead-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFN/" tstamps="/5FD4A46A/"/>
+      <tstamp>5D598768</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFN/" tstamps="/5FD4A46A/"/>
+      <tstamp>5D494144</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>LT3042</value>
+      <footprint>Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="LT3042-OSU_SIM_old" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFN/" tstamps="/5FD4A46A/"/>
+      <tstamp>5FD423B9</tstamp>
+    </comp>
+    <comp ref="J34">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFN/" tstamps="/5FD4A46A/"/>
+      <tstamp>5FD42BB2</tstamp>
+    </comp>
+    <comp ref="J33">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFN/" tstamps="/5FD4A46A/"/>
+      <tstamp>5FD453FE</tstamp>
+    </comp>
+    <comp ref="RV8">
+      <value>R_POT</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFN/" tstamps="/5FD4A46A/"/>
+      <tstamp>60B8646E</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="DK_Num">1276-7034-1-ND</field>
+      </fields>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFP/" tstamps="/5FD4A46F/"/>
+      <tstamp>5D49411D</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="DK_Num">1276-3178-1-ND</field>
+      </fields>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFP/" tstamps="/5FD4A46F/"/>
+      <tstamp>5D494125</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFP/" tstamps="/5FD4A46F/"/>
+      <tstamp>5D494111</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFP/" tstamps="/5FD4A46F/"/>
+      <tstamp>5D494133</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFP/" tstamps="/5FD4A46F/"/>
+      <tstamp>5D494136</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFP/" tstamps="/5FD4A46F/"/>
+      <tstamp>5D494147</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFP/" tstamps="/5FD4A46F/"/>
+      <tstamp>5D494158</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFP/" tstamps="/5FD4A46F/"/>
+      <tstamp>5D494161</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>Ferrite_Bead</value>
+      <footprint>OSU_SIM_BASIC:L_1206_HandSoldering</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="Ferrite_Bead-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFP/" tstamps="/5FD4A46F/"/>
+      <tstamp>5D598768</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFP/" tstamps="/5FD4A46F/"/>
+      <tstamp>5D494144</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>LT3042</value>
+      <footprint>Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="LT3042-OSU_SIM_old" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFP/" tstamps="/5FD4A46F/"/>
+      <tstamp>5FD423B9</tstamp>
+    </comp>
+    <comp ref="J36">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFP/" tstamps="/5FD4A46F/"/>
+      <tstamp>5FD42BB2</tstamp>
+    </comp>
+    <comp ref="J35">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFP/" tstamps="/5FD4A46F/"/>
+      <tstamp>5FD453FE</tstamp>
+    </comp>
+    <comp ref="RV9">
+      <value>R_POT</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/Regulator_BE_ADC_VREFP/" tstamps="/5FD4A46F/"/>
+      <tstamp>60B8646E</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="DK_Num">1276-7034-1-ND</field>
+      </fields>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_FPGA/" tstamps="/5FD4A606/"/>
+      <tstamp>5D49411D</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="DK_Num">1276-3178-1-ND</field>
+      </fields>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_FPGA/" tstamps="/5FD4A606/"/>
+      <tstamp>5D494125</tstamp>
+    </comp>
+    <comp ref="C56">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_FPGA/" tstamps="/5FD4A606/"/>
+      <tstamp>5D494111</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Regulator_FPGA/" tstamps="/5FD4A606/"/>
+      <tstamp>5D494133</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Regulator_FPGA/" tstamps="/5FD4A606/"/>
+      <tstamp>5D494136</tstamp>
+    </comp>
+    <comp ref="C58">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_FPGA/" tstamps="/5FD4A606/"/>
+      <tstamp>5D494147</tstamp>
+    </comp>
+    <comp ref="C59">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_FPGA/" tstamps="/5FD4A606/"/>
+      <tstamp>5D494158</tstamp>
+    </comp>
+    <comp ref="C60">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_FPGA/" tstamps="/5FD4A606/"/>
+      <tstamp>5D494161</tstamp>
+    </comp>
+    <comp ref="L7">
+      <value>Ferrite_Bead</value>
+      <footprint>OSU_SIM_BASIC:L_1206_HandSoldering</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="Ferrite_Bead-Device" description=""/>
+      <sheetpath names="/Regulator_FPGA/" tstamps="/5FD4A606/"/>
+      <tstamp>5D598768</tstamp>
+    </comp>
+    <comp ref="C57">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Regulator_FPGA/" tstamps="/5FD4A606/"/>
+      <tstamp>5D494144</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>LT3042</value>
+      <footprint>Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm</footprint>
+      <libsource lib="fdm_gen2_v1-rescue" part="LT3042-OSU_SIM_old" description=""/>
+      <sheetpath names="/Regulator_FPGA/" tstamps="/5FD4A606/"/>
+      <tstamp>5FD423B9</tstamp>
+    </comp>
+    <comp ref="J38">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/Regulator_FPGA/" tstamps="/5FD4A606/"/>
+      <tstamp>5FD42BB2</tstamp>
+    </comp>
+    <comp ref="J37">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/Regulator_FPGA/" tstamps="/5FD4A606/"/>
+      <tstamp>5FD453FE</tstamp>
+    </comp>
+    <comp ref="RV10">
+      <value>R_POT</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/Regulator_FPGA/" tstamps="/5FD4A606/"/>
+      <tstamp>60B8646E</tstamp>
+    </comp>
+    <comp ref="J39">
+      <value>OPAL_KELLY</value>
+      <footprint>OSU_SIM_BASIC:OPAL_KELLY</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="OPAL_KELLY-OSU_SIM_BASIC" description=""/>
+      <sheetpath names="/instance_FPGA/" tstamps="/5FD5A201/"/>
+      <tstamp>5FD5A3B4</tstamp>
+    </comp>
+    <comp ref="J40">
+      <value>Conn_01x13_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="fdm_gen2_v1-rescue" part="Conn_01x13_Male-Connector" description=""/>
+      <sheetpath names="/instance_FPGA/" tstamps="/5FD5A201/"/>
+      <tstamp>608BEE3F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="fdm_gen2_v1-rescue" part="BANA_PWR-fdm_gen2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BANA_PWR-fdm_gen2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PWR" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdm_gen2_v1-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdm_gen2_v1-rescue" part="CP1-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdm_gen2_v1-rescue" part="Conn_01x01-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdm_gen2_v1-rescue" part="Conn_01x02-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdm_gen2_v1-rescue" part="Conn_01x03_Male-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdm_gen2_v1-rescue" part="Conn_01x13_Male-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x13_Male-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdm_gen2_v1-rescue" part="Conn_02x10_Odd_Even-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x10_Odd_Even-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdm_gen2_v1-rescue" part="Conn_02x16_Odd_Even-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x16_Odd_Even-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdm_gen2_v1-rescue" part="DEBOUNCER-OSU_SIM_old">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DEBOUNCER-OSU_SIM_old</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="OUT" type="input"/>
+        <pin num="4" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdm_gen2_v1-rescue" part="Ferrite_Bead-Device">
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdm_gen2_v1-rescue" part="LT3042-OSU_SIM_old">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT3042-OSU_SIM_old</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="IN" type="power_in"/>
+        <pin num="3" name="EN/UV" type="input"/>
+        <pin num="4" name="PG" type="openCol"/>
+        <pin num="5" name="ILIM" type="BiDi"/>
+        <pin num="6" name="PGFB" type="BiDi"/>
+        <pin num="7" name="SET" type="BiDi"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="OUTS" type="passive"/>
+        <pin num="10" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdm_gen2_v1-rescue" part="OPAL_KELLY-OSU_SIM_BASIC">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">OPAL_KELLY-OSU_SIM_BASIC</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+VDC" type="power_in"/>
+        <pin num="2" name="DGND" type="power_in"/>
+        <pin num="3" name="+VDC" type="power_in"/>
+        <pin num="4" name="+1.2V" type="power_out"/>
+        <pin num="5" name="+VDC" type="power_in"/>
+        <pin num="6" name="+1.2V" type="power_out"/>
+        <pin num="7" name="+1.8V" type="passive"/>
+        <pin num="8" name="T14" type="passive"/>
+        <pin num="9" name="+3.3V" type="power_out"/>
+        <pin num="10" name="Y9" type="passive"/>
+        <pin num="11" name="+3.3V" type="power_in"/>
+        <pin num="12" name="AB9" type="passive"/>
+        <pin num="13" name="+3.3V" type="power_in"/>
+        <pin num="14" name="DGND" type="power_in"/>
+        <pin num="15" name="W20" type="passive"/>
+        <pin num="16" name="T19" type="passive"/>
+        <pin num="17" name="W22" type="passive"/>
+        <pin num="18" name="T20" type="passive"/>
+        <pin num="19" name="U19" type="passive"/>
+        <pin num="20" name="P17" type="passive"/>
+        <pin num="21" name="V20" type="passive"/>
+        <pin num="22" name="N16" type="passive"/>
+        <pin num="23" name="C5" type="passive"/>
+        <pin num="24" name="M17" type="passive"/>
+        <pin num="25" name="A5" type="passive"/>
+        <pin num="26" name="M18" type="passive"/>
+        <pin num="27" name="D14" type="passive"/>
+        <pin num="28" name="P18" type="passive"/>
+        <pin num="29" name="C14" type="passive"/>
+        <pin num="30" name="R19" type="passive"/>
+        <pin num="31" name="E16" type="passive"/>
+        <pin num="32" name="D9" type="passive"/>
+        <pin num="33" name="D17" type="passive"/>
+        <pin num="34" name="C8" type="passive"/>
+        <pin num="35" name="DGND" type="power_in"/>
+        <pin num="36" name="VCCO_0" type="passive"/>
+        <pin num="37" name="D7" type="passive"/>
+        <pin num="38" name="D10" type="passive"/>
+        <pin num="39" name="D8" type="passive"/>
+        <pin num="40" name="C10" type="passive"/>
+        <pin num="41" name="L17" type="passive"/>
+        <pin num="42" name="D11" type="passive"/>
+        <pin num="43" name="K18" type="passive"/>
+        <pin num="44" name="C12" type="passive"/>
+        <pin num="45" name="D6" type="passive"/>
+        <pin num="46" name="D15" type="passive"/>
+        <pin num="47" name="C6" type="passive"/>
+        <pin num="48" name="C16" type="passive"/>
+        <pin num="49" name="A3" type="passive"/>
+        <pin num="50" name="B6" type="passive"/>
+        <pin num="51" name="A4" type="passive"/>
+        <pin num="52" name="A6" type="passive"/>
+        <pin num="53" name="B8" type="passive"/>
+        <pin num="54" name="C7" type="passive"/>
+        <pin num="55" name="DGND" type="passive"/>
+        <pin num="56" name="VCCO_0" type="passive"/>
+        <pin num="57" name="A8" type="passive"/>
+        <pin num="58" name="A7" type="passive"/>
+        <pin num="59" name="B10" type="passive"/>
+        <pin num="60" name="C9" type="passive"/>
+        <pin num="61" name="A10" type="passive"/>
+        <pin num="62" name="A9" type="passive"/>
+        <pin num="63" name="C13" type="passive"/>
+        <pin num="64" name="B12" type="passive"/>
+        <pin num="65" name="A13" type="passive"/>
+        <pin num="66" name="A12" type="passive"/>
+        <pin num="67" name="C15" type="passive"/>
+        <pin num="68" name="B14" type="passive"/>
+        <pin num="69" name="A15" type="passive"/>
+        <pin num="70" name="A14" type="passive"/>
+        <pin num="71" name="C17" type="passive"/>
+        <pin num="72" name="B16" type="passive"/>
+        <pin num="73" name="A17" type="passive"/>
+        <pin num="74" name="A16" type="passive"/>
+        <pin num="75" name="A18" type="passive"/>
+        <pin num="76" name="B18" type="passive"/>
+        <pin num="77" name="C11" type="passive"/>
+        <pin num="78" name="DGND" type="power_in"/>
+        <pin num="79" name="A11" type="passive"/>
+        <pin num="80" name="DGND" type="power_in"/>
+        <pin num="81" name="DGND" type="power_in"/>
+        <pin num="82" name="+3.3V" type="power_out"/>
+        <pin num="83" name="VBATT" type="power_in"/>
+        <pin num="84" name="+3.3V" type="power_out"/>
+        <pin num="85" name="JTAG_TCK" type="passive"/>
+        <pin num="86" name="+3.3V" type="power_out"/>
+        <pin num="87" name="JTAG_TMS" type="passive"/>
+        <pin num="88" name="JTAG_TDO" type="passive"/>
+        <pin num="89" name="JTAG_TDI" type="passive"/>
+        <pin num="90" name="VREF_1" type="passive"/>
+        <pin num="91" name="U12" type="passive"/>
+        <pin num="92" name="RFUSE" type="passive"/>
+        <pin num="93" name="DGND" type="power_in"/>
+        <pin num="94" name="DGND" type="power_in"/>
+        <pin num="95" name="G16" type="passive"/>
+        <pin num="96" name="G19" type="passive"/>
+        <pin num="97" name="G17" type="passive"/>
+        <pin num="98" name="F20" type="passive"/>
+        <pin num="99" name="H19" type="passive"/>
+        <pin num="100" name="H20" type="passive"/>
+        <pin num="101" name="H18" type="passive"/>
+        <pin num="102" name="J19" type="passive"/>
+        <pin num="103" name="F16" type="passive"/>
+        <pin num="104" name="D19" type="passive"/>
+        <pin num="105" name="F17" type="passive"/>
+        <pin num="106" name="D20" type="passive"/>
+        <pin num="107" name="J17" type="passive"/>
+        <pin num="108" name="F18" type="passive"/>
+        <pin num="109" name="K17" type="passive"/>
+        <pin num="110" name="F19" type="passive"/>
+        <pin num="111" name="K16" type="passive"/>
+        <pin num="112" name="M16" type="passive"/>
+        <pin num="113" name="J16" type="passive"/>
+        <pin num="114" name="L15" type="passive"/>
+        <pin num="115" name="VCCO_1" type="power_in"/>
+        <pin num="116" name="DGDN" type="passive"/>
+        <pin num="117" name="V21" type="passive"/>
+        <pin num="118" name="K20" type="passive"/>
+        <pin num="119" name="V22" type="passive"/>
+        <pin num="120" name="K19" type="passive"/>
+        <pin num="121" name="T21" type="passive"/>
+        <pin num="122" name="U20" type="passive"/>
+        <pin num="123" name="T22" type="passive"/>
+        <pin num="124" name="U22" type="passive"/>
+        <pin num="125" name="P21" type="passive"/>
+        <pin num="126" name="R20" type="passive"/>
+        <pin num="127" name="P22" type="passive"/>
+        <pin num="128" name="R22" type="passive"/>
+        <pin num="129" name="M21" type="passive"/>
+        <pin num="130" name="N20" type="passive"/>
+        <pin num="131" name="M22" type="passive"/>
+        <pin num="132" name="N22" type="passive"/>
+        <pin num="133" name="L20" type="passive"/>
+        <pin num="134" name="M20" type="passive"/>
+        <pin num="135" name="VCCO_1" type="power_in"/>
+        <pin num="136" name="DGND" type="passive"/>
+        <pin num="137" name="L22" type="passive"/>
+        <pin num="138" name="L19" type="passive"/>
+        <pin num="139" name="H21" type="passive"/>
+        <pin num="140" name="K21" type="passive"/>
+        <pin num="141" name="H22" type="passive"/>
+        <pin num="142" name="K22" type="passive"/>
+        <pin num="143" name="F21" type="passive"/>
+        <pin num="144" name="G20" type="passive"/>
+        <pin num="145" name="F22" type="passive"/>
+        <pin num="146" name="G22" type="passive"/>
+        <pin num="147" name="D21" type="passive"/>
+        <pin num="148" name="E20" type="passive"/>
+        <pin num="149" name="D22" type="passive"/>
+        <pin num="150" name="E22" type="passive"/>
+        <pin num="151" name="B21" type="passive"/>
+        <pin num="152" name="C20" type="passive"/>
+        <pin num="153" name="B22" type="passive"/>
+        <pin num="154" name="C22" type="passive"/>
+        <pin num="155" name="A21" type="passive"/>
+        <pin num="156" name="A20" type="passive"/>
+        <pin num="157" name="J20" type="passive"/>
+        <pin num="158" name="DGND" type="power_in"/>
+        <pin num="159" name="J22" type="passive"/>
+        <pin num="160" name="DGND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdm_gen2_v1-rescue" part="PLCC_84-OSU_SIM_BASIC">
+      <footprints>
+        <fp>PLCC_84</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">PLCC_84-OSU_SIM_BASIC</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PIN1" type="passive"/>
+        <pin num="2" name="PIN2" type="passive"/>
+        <pin num="3" name="PIN3" type="passive"/>
+        <pin num="4" name="PIN4" type="passive"/>
+        <pin num="5" name="PIN5" type="passive"/>
+        <pin num="6" name="PIN6" type="passive"/>
+        <pin num="7" name="PIN7" type="passive"/>
+        <pin num="8" name="PIN8" type="passive"/>
+        <pin num="9" name="PIN9" type="passive"/>
+        <pin num="10" name="PIN10" type="passive"/>
+        <pin num="11" name="PIN11" type="passive"/>
+        <pin num="12" name="PIN12" type="passive"/>
+        <pin num="13" name="PIN13" type="passive"/>
+        <pin num="14" name="PIN14" type="passive"/>
+        <pin num="15" name="PIN15" type="passive"/>
+        <pin num="16" name="PIN16" type="passive"/>
+        <pin num="17" name="PIN17" type="passive"/>
+        <pin num="18" name="PIN18" type="passive"/>
+        <pin num="19" name="PIN19" type="passive"/>
+        <pin num="20" name="PIN20" type="passive"/>
+        <pin num="21" name="PIN21" type="passive"/>
+        <pin num="22" name="PIN22" type="passive"/>
+        <pin num="23" name="PIN23" type="passive"/>
+        <pin num="24" name="PIN24" type="passive"/>
+        <pin num="25" name="PIN25" type="passive"/>
+        <pin num="26" name="PIN26" type="passive"/>
+        <pin num="27" name="PIN27" type="passive"/>
+        <pin num="28" name="PIN28" type="passive"/>
+        <pin num="29" name="PIN29" type="passive"/>
+        <pin num="30" name="PIN30" type="passive"/>
+        <pin num="31" name="PIN31" type="passive"/>
+        <pin num="32" name="PIN32" type="passive"/>
+        <pin num="33" name="PIN33" type="passive"/>
+        <pin num="34" name="PIN34" type="passive"/>
+        <pin num="35" name="PIN35" type="passive"/>
+        <pin num="36" name="PIN36" type="passive"/>
+        <pin num="37" name="PIN37" type="passive"/>
+        <pin num="38" name="PIN38" type="passive"/>
+        <pin num="39" name="PIN39" type="passive"/>
+        <pin num="40" name="PIN40" type="passive"/>
+        <pin num="41" name="PIN41" type="passive"/>
+        <pin num="42" name="PIN42" type="passive"/>
+        <pin num="43" name="PIN43" type="passive"/>
+        <pin num="44" name="PIN44" type="passive"/>
+        <pin num="45" name="PIN45" type="passive"/>
+        <pin num="46" name="PIN46" type="passive"/>
+        <pin num="47" name="PIN47" type="passive"/>
+        <pin num="48" name="PIN48" type="passive"/>
+        <pin num="49" name="PIN49" type="passive"/>
+        <pin num="50" name="PIN50" type="passive"/>
+        <pin num="51" name="PIN51" type="passive"/>
+        <pin num="52" name="PIN52" type="passive"/>
+        <pin num="53" name="PIN53" type="passive"/>
+        <pin num="54" name="PIN54" type="passive"/>
+        <pin num="55" name="PIN55" type="passive"/>
+        <pin num="56" name="PIN56" type="passive"/>
+        <pin num="57" name="PIN57" type="passive"/>
+        <pin num="58" name="PIN58" type="passive"/>
+        <pin num="59" name="PIN59" type="passive"/>
+        <pin num="60" name="PIN60" type="passive"/>
+        <pin num="61" name="PIN61" type="passive"/>
+        <pin num="62" name="PIN62" type="passive"/>
+        <pin num="63" name="PIN63" type="passive"/>
+        <pin num="64" name="PIN64" type="passive"/>
+        <pin num="65" name="PIN65" type="passive"/>
+        <pin num="66" name="PIN66" type="passive"/>
+        <pin num="67" name="PIN67" type="passive"/>
+        <pin num="68" name="PIN68" type="passive"/>
+        <pin num="69" name="PIN69" type="passive"/>
+        <pin num="70" name="PIN70" type="passive"/>
+        <pin num="71" name="PIN71" type="passive"/>
+        <pin num="72" name="PIN72" type="passive"/>
+        <pin num="73" name="PIN73" type="passive"/>
+        <pin num="74" name="PIN74" type="passive"/>
+        <pin num="75" name="PIN75" type="passive"/>
+        <pin num="76" name="PIN76" type="passive"/>
+        <pin num="77" name="PIN77" type="passive"/>
+        <pin num="78" name="PIN78" type="passive"/>
+        <pin num="79" name="PIN79" type="passive"/>
+        <pin num="80" name="PIN80" type="passive"/>
+        <pin num="81" name="PIN81" type="passive"/>
+        <pin num="82" name="PIN82" type="passive"/>
+        <pin num="83" name="PIN83" type="passive"/>
+        <pin num="84" name="PIN84" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdm_gen2_v1-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdm_gen2_v1-rescue" part="R_POT-Device">
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdm_gen2_v1-rescue" part="SMA-OSU_SIM_BASIC">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SMA-OSU_SIM_BASIC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdm_gen2_v1-rescue" part="TACTILE-SWITCH-fdm_gen2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TACTILE-SWITCH-fdm_gen2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="fdm_gen2_v1-rescue">
+      <uri>/Users/jinyongkim/Documents/Kicad/fdm_gen2_v1/fdm_gen2_v1-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/BE_RFS">
+      <node ref="J13" pin="1"/>
+      <node ref="X1" pin="29"/>
+    </net>
+    <net code="2" name="/VDD_5p5">
+      <node ref="U9" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U6" pin="2"/>
+      <node ref="J39" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="J39" pin="3"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U11" pin="6"/>
+      <node ref="U11" pin="1"/>
+      <node ref="U11" pin="2"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U6" pin="6"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="J39" pin="5"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="C54" pin="1"/>
+      <node ref="U8" pin="6"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U8" pin="1"/>
+      <node ref="C55" pin="1"/>
+      <node ref="C48" pin="1"/>
+      <node ref="C47" pin="1"/>
+      <node ref="J44" pin="2"/>
+      <node ref="J44" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U7" pin="6"/>
+      <node ref="U10" pin="6"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="6"/>
+      <node ref="U10" pin="3"/>
+      <node ref="J11" pin="5"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U10" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U9" pin="6"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U10" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U11" pin="3"/>
+    </net>
+    <net code="3" name="/PVDD">
+      <node ref="J26" pin="2"/>
+      <node ref="J26" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="X1" pin="63"/>
+      <node ref="X1" pin="5"/>
+      <node ref="X1" pin="23"/>
+      <node ref="X1" pin="43"/>
+    </net>
+    <net code="4" name="/BE_AVDD">
+      <node ref="X1" pin="39"/>
+      <node ref="C5" pin="1"/>
+      <node ref="X1" pin="25"/>
+      <node ref="X1" pin="24"/>
+      <node ref="J28" pin="1"/>
+      <node ref="J28" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C23" pin="1"/>
+    </net>
+    <net code="5" name="/BE_ADC_VDD">
+      <node ref="C30" pin="1"/>
+      <node ref="J30" pin="2"/>
+      <node ref="J30" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="L3" pin="1"/>
+      <node ref="X1" pin="49"/>
+      <node ref="X1" pin="42"/>
+      <node ref="X1" pin="41"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C32" pin="1"/>
+    </net>
+    <net code="6" name="/BE_VCM">
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="X1" pin="46"/>
+      <node ref="L4" pin="1"/>
+      <node ref="J32" pin="1"/>
+      <node ref="J32" pin="2"/>
+      <node ref="X1" pin="32"/>
+    </net>
+    <net code="7" name="/ADC_VREFN">
+      <node ref="J34" pin="1"/>
+      <node ref="C45" pin="1"/>
+      <node ref="X1" pin="45"/>
+      <node ref="C44" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="L5" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="J34" pin="2"/>
+    </net>
+    <net code="8" name="/ADC_VREFP">
+      <node ref="L6" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="X1" pin="47"/>
+      <node ref="C53" pin="1"/>
+      <node ref="C52" pin="1"/>
+      <node ref="C51" pin="1"/>
+      <node ref="J36" pin="1"/>
+      <node ref="J36" pin="2"/>
+    </net>
+    <net code="9" name="/FPGA_VDD_1p8">
+      <node ref="L7" pin="1"/>
+      <node ref="J39" pin="56"/>
+      <node ref="C58" pin="1"/>
+      <node ref="J39" pin="115"/>
+      <node ref="J39" pin="135"/>
+      <node ref="J39" pin="36"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="J12" pin="5"/>
+      <node ref="J38" pin="1"/>
+      <node ref="J38" pin="2"/>
+      <node ref="C60" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C59" pin="1"/>
+    </net>
+    <net code="10" name="/ADC_CLK_FPGA">
+      <node ref="J6" pin="1"/>
+      <node ref="J39" pin="15"/>
+    </net>
+    <net code="11" name="/ADC_RST_FPGA">
+      <node ref="J2" pin="3"/>
+      <node ref="J39" pin="17"/>
+    </net>
+    <net code="12" name="/CTL_IB_FPGA">
+      <node ref="J3" pin="3"/>
+      <node ref="J39" pin="19"/>
+    </net>
+    <net code="13" name="/ADC_CLK_EXT">
+      <node ref="J6" pin="3"/>
+      <node ref="J8" pin="5"/>
+    </net>
+    <net code="14" name="/BE_IN">
+      <node ref="J4" pin="5"/>
+      <node ref="X1" pin="30"/>
+      <node ref="J18" pin="2"/>
+    </net>
+    <net code="15" name="/BE_ADC_CLK">
+      <node ref="X1" pin="34"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="16" name="/BE_ON_RF">
+      <node ref="X1" pin="37"/>
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="17" name="/BE_OP_RF">
+      <node ref="J7" pin="5"/>
+      <node ref="X1" pin="38"/>
+    </net>
+    <net code="18" name="/FPGA_CLK_EXT">
+      <node ref="J9" pin="5"/>
+      <node ref="J39" pin="42"/>
+    </net>
+    <net code="19" name="/BE_ADC_DO&lt;0&gt;">
+      <node ref="X1" pin="50"/>
+      <node ref="J20" pin="1"/>
+      <node ref="J39" pin="23"/>
+    </net>
+    <net code="20" name="/BE_ADC_DO&lt;1&gt;">
+      <node ref="J39" pin="25"/>
+      <node ref="X1" pin="51"/>
+      <node ref="J20" pin="2"/>
+    </net>
+    <net code="21" name="/BE_ADC_DO&lt;2&gt;">
+      <node ref="J20" pin="3"/>
+      <node ref="X1" pin="52"/>
+      <node ref="J39" pin="27"/>
+    </net>
+    <net code="22" name="/BE_ADC_DO&lt;3&gt;">
+      <node ref="J20" pin="4"/>
+      <node ref="J39" pin="29"/>
+      <node ref="X1" pin="53"/>
+    </net>
+    <net code="23" name="/BE_ADC_DO&lt;4&gt;">
+      <node ref="J39" pin="31"/>
+      <node ref="X1" pin="54"/>
+      <node ref="J20" pin="5"/>
+    </net>
+    <net code="24" name="/BE_ADC_DO&lt;5&gt;">
+      <node ref="J39" pin="33"/>
+      <node ref="X1" pin="55"/>
+      <node ref="J20" pin="6"/>
+    </net>
+    <net code="25" name="/BE_ADC_DO&lt;6&gt;">
+      <node ref="J39" pin="37"/>
+      <node ref="X1" pin="56"/>
+      <node ref="J20" pin="7"/>
+    </net>
+    <net code="26" name="/BE_ADC_DO&lt;7&gt;">
+      <node ref="J39" pin="39"/>
+      <node ref="X1" pin="57"/>
+      <node ref="J20" pin="8"/>
+    </net>
+    <net code="27" name="/BE_ADC_DO&lt;8&gt;">
+      <node ref="J20" pin="9"/>
+      <node ref="J39" pin="41"/>
+      <node ref="X1" pin="58"/>
+    </net>
+    <net code="28" name="/BE_ADC_DO&lt;9&gt;">
+      <node ref="J20" pin="10"/>
+      <node ref="J39" pin="43"/>
+      <node ref="X1" pin="59"/>
+    </net>
+    <net code="29" name="/BE_ADC_DO&lt;10&gt;">
+      <node ref="J39" pin="45"/>
+      <node ref="X1" pin="60"/>
+      <node ref="J20" pin="11"/>
+    </net>
+    <net code="30" name="/BE_ADC_SMPO">
+      <node ref="X1" pin="61"/>
+      <node ref="J20" pin="12"/>
+      <node ref="J39" pin="47"/>
+    </net>
+    <net code="31" name="Net-(FB1-Pad1)">
+      <node ref="FB1" pin="1"/>
+      <node ref="J10" pin="5"/>
+    </net>
+    <net code="32" name="/BE_EXT_IB">
+      <node ref="X1" pin="26"/>
+      <node ref="FB1" pin="2"/>
+    </net>
+    <net code="33" name="/BE_CTL_IB">
+      <node ref="X1" pin="36"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="34" name="Net-(J1-Pad2)">
+      <node ref="J3" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="35" name="/ADC_RST_EXT">
+      <node ref="U2" pin="3"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="36" name="/BE_ADC_RST">
+      <node ref="X1" pin="35"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="37" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="38" name="Net-(J15-Pad2)">
+      <node ref="RV2" pin="1"/>
+      <node ref="J15" pin="2"/>
+    </net>
+    <net code="39" name="Net-(J16-Pad2)">
+      <node ref="RV3" pin="1"/>
+      <node ref="J16" pin="2"/>
+    </net>
+    <net code="40" name="Net-(J14-Pad2)">
+      <node ref="RV1" pin="1"/>
+      <node ref="J14" pin="2"/>
+    </net>
+    <net code="41" name="Net-(C63-Pad2)">
+      <node ref="J43" pin="2"/>
+      <node ref="C63" pin="2"/>
+    </net>
+    <net code="42" name="Net-(C62-Pad2)">
+      <node ref="C62" pin="2"/>
+      <node ref="J42" pin="2"/>
+    </net>
+    <net code="43" name="Net-(J13-Pad2)">
+      <node ref="J15" pin="1"/>
+      <node ref="J42" pin="1"/>
+      <node ref="J43" pin="1"/>
+      <node ref="J41" pin="1"/>
+      <node ref="J16" pin="1"/>
+      <node ref="J13" pin="2"/>
+      <node ref="J14" pin="1"/>
+    </net>
+    <net code="44" name="Net-(C61-Pad1)">
+      <node ref="C61" pin="1"/>
+      <node ref="RV3" pin="3"/>
+      <node ref="C62" pin="1"/>
+      <node ref="C63" pin="1"/>
+      <node ref="RV3" pin="2"/>
+      <node ref="J18" pin="1"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="RV2" pin="2"/>
+    </net>
+    <net code="45" name="Net-(C61-Pad2)">
+      <node ref="J41" pin="2"/>
+      <node ref="C61" pin="2"/>
+    </net>
+    <net code="47" name="/core/dut_AE_CTL_IB">
+      <node ref="X1" pin="1"/>
+      <node ref="J23" pin="13"/>
+    </net>
+    <net code="48" name="/core/dut_AE_EXT_FR_CK">
+      <node ref="X1" pin="13"/>
+      <node ref="J24" pin="17"/>
+    </net>
+    <net code="49" name="/core/dut_AE_EXT_FR_OR">
+      <node ref="X1" pin="14"/>
+      <node ref="J24" pin="9"/>
+    </net>
+    <net code="50" name="/core/dut_AE_CTL_RCTB">
+      <node ref="X1" pin="15"/>
+      <node ref="J24" pin="15"/>
+    </net>
+    <net code="51" name="/core/dut_AE_CTL_3HR">
+      <node ref="J24" pin="5"/>
+      <node ref="X1" pin="16"/>
+    </net>
+    <net code="52" name="/core/dut_AE_CTL_C_FR&lt;1&gt;">
+      <node ref="J24" pin="13"/>
+      <node ref="X1" pin="17"/>
+    </net>
+    <net code="53" name="/core/dut_AE_CTL_C_FR&lt;0&gt;">
+      <node ref="X1" pin="18"/>
+      <node ref="J24" pin="3"/>
+    </net>
+    <net code="54" name="/core/dut_AE_CTL_RCT">
+      <node ref="J24" pin="7"/>
+      <node ref="X1" pin="19"/>
+    </net>
+    <net code="55" name="/core/dut_AE_CTL_MDR">
+      <node ref="J24" pin="1"/>
+      <node ref="X1" pin="20"/>
+    </net>
+    <net code="56" name="/core/dut_EXT_FM_CK">
+      <node ref="J23" pin="11"/>
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="57" name="/core/dut_AE_EXT_FM_OR">
+      <node ref="J23" pin="9"/>
+      <node ref="X1" pin="4"/>
+    </net>
+    <net code="58" name="/core/dut_MONT_FM">
+      <node ref="J23" pin="7"/>
+      <node ref="X1" pin="6"/>
+    </net>
+    <net code="59" name="/core/dut_AE_OUT">
+      <node ref="X1" pin="69"/>
+      <node ref="J23" pin="29"/>
+    </net>
+    <net code="60" name="/core/dut_AE_CTL_FM_S1">
+      <node ref="X1" pin="7"/>
+      <node ref="J23" pin="5"/>
+    </net>
+    <net code="61" name="/core/dut_AE_ON_LNA">
+      <node ref="J23" pin="25"/>
+      <node ref="X1" pin="72"/>
+    </net>
+    <net code="62" name="/core/dut_AE_AVDD">
+      <node ref="J23" pin="31"/>
+      <node ref="X1" pin="76"/>
+      <node ref="X1" pin="74"/>
+      <node ref="X1" pin="67"/>
+      <node ref="X1" pin="65"/>
+      <node ref="X1" pin="66"/>
+    </net>
+    <net code="63" name="/core/dut_AE_AINP">
+      <node ref="J23" pin="23"/>
+      <node ref="X1" pin="79"/>
+    </net>
+    <net code="64" name="/core/dut_AE_DVDD">
+      <node ref="X1" pin="83"/>
+      <node ref="X1" pin="8"/>
+      <node ref="J23" pin="17"/>
+      <node ref="X1" pin="2"/>
+    </net>
+    <net code="65" name="/core/dut_AE_VCM">
+      <node ref="X1" pin="80"/>
+      <node ref="J23" pin="21"/>
+    </net>
+    <net code="66" name="/core/dut_AE_AINN">
+      <node ref="J23" pin="19"/>
+      <node ref="X1" pin="81"/>
+    </net>
+    <net code="67" name="/core/dut_AE_EXT_IB">
+      <node ref="X1" pin="84"/>
+      <node ref="J23" pin="15"/>
+    </net>
+    <net code="68" name="/core/dut_AE_CTL_FR_S2">
+      <node ref="J23" pin="3"/>
+      <node ref="X1" pin="9"/>
+    </net>
+    <net code="69" name="/core/dut_AE_CTL_FR_S1">
+      <node ref="J23" pin="1"/>
+      <node ref="X1" pin="10"/>
+    </net>
+    <net code="70" name="/core/dut_AE_MOUNT_FR">
+      <node ref="X1" pin="12"/>
+      <node ref="J24" pin="11"/>
+    </net>
+    <net code="71" name="/core/dut_AE_OP_LNA">
+      <node ref="X1" pin="73"/>
+      <node ref="J23" pin="27"/>
+    </net>
+    <net code="72" name="Net-(J24-Pad19)">
+      <node ref="J24" pin="19"/>
+    </net>
+    <net code="73" name="Net-(J24-Pad20)">
+      <node ref="J24" pin="20"/>
+    </net>
+    <net code="74" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="75" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="RV4" pin="2"/>
+      <node ref="RV4" pin="3"/>
+    </net>
+    <net code="76" name="Net-(J25-Pad2)">
+      <node ref="L1" pin="2"/>
+      <node ref="J25" pin="2"/>
+    </net>
+    <net code="77" name="/Regulator_PVDD/SET">
+      <node ref="U5" pin="7"/>
+      <node ref="RV4" pin="1"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="78" name="/Regulator_PVDD/OUT">
+      <node ref="U5" pin="10"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U5" pin="9"/>
+      <node ref="J25" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="79" name="Net-(U6-Pad4)">
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="80" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="RV5" pin="2"/>
+      <node ref="RV5" pin="3"/>
+    </net>
+    <net code="81" name="Net-(J27-Pad2)">
+      <node ref="L2" pin="2"/>
+      <node ref="J27" pin="2"/>
+    </net>
+    <net code="82" name="/Regulator_BE_AVDD/SET">
+      <node ref="RV5" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="83" name="/Regulator_BE_AVDD/OUT">
+      <node ref="U6" pin="9"/>
+      <node ref="J27" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U6" pin="10"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="84" name="Net-(U7-Pad4)">
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="85" name="Net-(R6-Pad1)">
+      <node ref="RV6" pin="3"/>
+      <node ref="RV6" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="86" name="Net-(J29-Pad2)">
+      <node ref="L3" pin="2"/>
+      <node ref="J29" pin="2"/>
+    </net>
+    <net code="87" name="/Regulator_BE_ADC_VDD/SET">
+      <node ref="U7" pin="7"/>
+      <node ref="RV6" pin="1"/>
+      <node ref="C28" pin="1"/>
+    </net>
+    <net code="88" name="/Regulator_BE_ADC_VDD/OUT">
+      <node ref="R7" pin="1"/>
+      <node ref="J29" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="U7" pin="9"/>
+      <node ref="U7" pin="10"/>
+    </net>
+    <net code="89" name="Net-(U8-Pad4)">
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="90" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="RV7" pin="2"/>
+      <node ref="RV7" pin="3"/>
+    </net>
+    <net code="91" name="Net-(J31-Pad2)">
+      <node ref="J31" pin="2"/>
+      <node ref="L4" pin="2"/>
+    </net>
+    <net code="92" name="/Regulator_BE_VCM/SET">
+      <node ref="U8" pin="7"/>
+      <node ref="C35" pin="1"/>
+      <node ref="RV7" pin="1"/>
+    </net>
+    <net code="93" name="/Regulator_BE_VCM/OUT">
+      <node ref="C36" pin="1"/>
+      <node ref="U8" pin="10"/>
+      <node ref="U8" pin="9"/>
+      <node ref="R9" pin="1"/>
+      <node ref="J31" pin="1"/>
+    </net>
+    <net code="94" name="Net-(U9-Pad4)">
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="95" name="Net-(R10-Pad1)">
+      <node ref="RV8" pin="2"/>
+      <node ref="RV8" pin="3"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="96" name="Net-(J33-Pad2)">
+      <node ref="J33" pin="2"/>
+      <node ref="L5" pin="2"/>
+    </net>
+    <net code="97" name="/Regulator_BE_ADC_VREFN/SET">
+      <node ref="RV8" pin="1"/>
+      <node ref="U9" pin="7"/>
+      <node ref="C42" pin="1"/>
+    </net>
+    <net code="98" name="/Regulator_BE_ADC_VREFN/OUT">
+      <node ref="C43" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="J33" pin="1"/>
+      <node ref="U9" pin="9"/>
+      <node ref="U9" pin="10"/>
+    </net>
+    <net code="99" name="Net-(U10-Pad4)">
+      <node ref="U10" pin="4"/>
+    </net>
+    <net code="100" name="Net-(R12-Pad1)">
+      <node ref="RV9" pin="3"/>
+      <node ref="RV9" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="101" name="Net-(J35-Pad2)">
+      <node ref="L6" pin="2"/>
+      <node ref="J35" pin="2"/>
+    </net>
+    <net code="102" name="/Regulator_BE_ADC_VREFP/SET">
+      <node ref="U10" pin="7"/>
+      <node ref="RV9" pin="1"/>
+      <node ref="C49" pin="1"/>
+    </net>
+    <net code="103" name="/Regulator_BE_ADC_VREFP/OUT">
+      <node ref="U10" pin="10"/>
+      <node ref="U10" pin="9"/>
+      <node ref="J35" pin="1"/>
+      <node ref="C50" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="104" name="Net-(U11-Pad4)">
+      <node ref="U11" pin="4"/>
+    </net>
+    <net code="105" name="Net-(R14-Pad1)">
+      <node ref="RV10" pin="3"/>
+      <node ref="RV10" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="106" name="Net-(J37-Pad2)">
+      <node ref="J37" pin="2"/>
+      <node ref="L7" pin="2"/>
+    </net>
+    <net code="107" name="/Regulator_FPGA/SET">
+      <node ref="RV10" pin="1"/>
+      <node ref="C56" pin="1"/>
+      <node ref="U11" pin="7"/>
+    </net>
+    <net code="108" name="/Regulator_FPGA/OUT">
+      <node ref="U11" pin="9"/>
+      <node ref="U11" pin="10"/>
+      <node ref="J37" pin="1"/>
+      <node ref="C57" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="109" name="Net-(J39-Pad10)">
+      <node ref="J39" pin="10"/>
+    </net>
+    <net code="110" name="Net-(J39-Pad11)">
+      <node ref="J39" pin="11"/>
+    </net>
+    <net code="111" name="Net-(J39-Pad12)">
+      <node ref="J39" pin="12"/>
+    </net>
+    <net code="112" name="Net-(J39-Pad13)">
+      <node ref="J39" pin="13"/>
+    </net>
+    <net code="113" name="Net-(J39-Pad16)">
+      <node ref="J39" pin="16"/>
+    </net>
+    <net code="114" name="Net-(J39-Pad18)">
+      <node ref="J39" pin="18"/>
+    </net>
+    <net code="115" name="Net-(J39-Pad20)">
+      <node ref="J39" pin="20"/>
+    </net>
+    <net code="116" name="Net-(J39-Pad21)">
+      <node ref="J39" pin="21"/>
+    </net>
+    <net code="117" name="Net-(J39-Pad22)">
+      <node ref="J39" pin="22"/>
+    </net>
+    <net code="118" name="Net-(J39-Pad24)">
+      <node ref="J39" pin="24"/>
+    </net>
+    <net code="119" name="Net-(J39-Pad26)">
+      <node ref="J39" pin="26"/>
+    </net>
+    <net code="120" name="Net-(J39-Pad28)">
+      <node ref="J39" pin="28"/>
+    </net>
+    <net code="121" name="Net-(J39-Pad30)">
+      <node ref="J39" pin="30"/>
+    </net>
+    <net code="122" name="Net-(J39-Pad32)">
+      <node ref="J39" pin="32"/>
+    </net>
+    <net code="123" name="Net-(J39-Pad34)">
+      <node ref="J39" pin="34"/>
+    </net>
+    <net code="124" name="Net-(J39-Pad38)">
+      <node ref="J39" pin="38"/>
+    </net>
+    <net code="125" name="Net-(J39-Pad4)">
+      <node ref="J39" pin="4"/>
+    </net>
+    <net code="126" name="Net-(J39-Pad40)">
+      <node ref="J39" pin="40"/>
+    </net>
+    <net code="127" name="Net-(J39-Pad44)">
+      <node ref="J39" pin="44"/>
+    </net>
+    <net code="128" name="Net-(J39-Pad46)">
+      <node ref="J39" pin="46"/>
+    </net>
+    <net code="129" name="Net-(J39-Pad48)">
+      <node ref="J39" pin="48"/>
+    </net>
+    <net code="130" name="Net-(J39-Pad49)">
+      <node ref="J39" pin="49"/>
+    </net>
+    <net code="131" name="Net-(J39-Pad50)">
+      <node ref="J39" pin="50"/>
+    </net>
+    <net code="132" name="Net-(J39-Pad51)">
+      <node ref="J39" pin="51"/>
+    </net>
+    <net code="133" name="Net-(J39-Pad52)">
+      <node ref="J39" pin="52"/>
+    </net>
+    <net code="134" name="Net-(J39-Pad53)">
+      <node ref="J39" pin="53"/>
+    </net>
+    <net code="135" name="Net-(J39-Pad54)">
+      <node ref="J39" pin="54"/>
+    </net>
+    <net code="136" name="Net-(J39-Pad57)">
+      <node ref="J39" pin="57"/>
+    </net>
+    <net code="137" name="Net-(J39-Pad58)">
+      <node ref="J39" pin="58"/>
+    </net>
+    <net code="138" name="Net-(J39-Pad59)">
+      <node ref="J39" pin="59"/>
+    </net>
+    <net code="139" name="Net-(J39-Pad6)">
+      <node ref="J39" pin="6"/>
+    </net>
+    <net code="140" name="Net-(J39-Pad60)">
+      <node ref="J39" pin="60"/>
+    </net>
+    <net code="141" name="Net-(J39-Pad61)">
+      <node ref="J39" pin="61"/>
+    </net>
+    <net code="142" name="Net-(J39-Pad62)">
+      <node ref="J39" pin="62"/>
+    </net>
+    <net code="143" name="Net-(J39-Pad63)">
+      <node ref="J39" pin="63"/>
+    </net>
+    <net code="144" name="Net-(J39-Pad64)">
+      <node ref="J39" pin="64"/>
+    </net>
+    <net code="145" name="Net-(J39-Pad65)">
+      <node ref="J39" pin="65"/>
+    </net>
+    <net code="146" name="Net-(J39-Pad66)">
+      <node ref="J39" pin="66"/>
+    </net>
+    <net code="147" name="Net-(J39-Pad67)">
+      <node ref="J39" pin="67"/>
+    </net>
+    <net code="148" name="Net-(J39-Pad68)">
+      <node ref="J39" pin="68"/>
+    </net>
+    <net code="149" name="Net-(J39-Pad69)">
+      <node ref="J39" pin="69"/>
+    </net>
+    <net code="150" name="Net-(J39-Pad7)">
+      <node ref="J39" pin="7"/>
+    </net>
+    <net code="151" name="Net-(J39-Pad70)">
+      <node ref="J39" pin="70"/>
+    </net>
+    <net code="152" name="Net-(J39-Pad71)">
+      <node ref="J39" pin="71"/>
+    </net>
+    <net code="153" name="Net-(J39-Pad72)">
+      <node ref="J39" pin="72"/>
+    </net>
+    <net code="154" name="Net-(J39-Pad73)">
+      <node ref="J39" pin="73"/>
+    </net>
+    <net code="155" name="Net-(J39-Pad74)">
+      <node ref="J39" pin="74"/>
+    </net>
+    <net code="156" name="Net-(J39-Pad75)">
+      <node ref="J39" pin="75"/>
+    </net>
+    <net code="157" name="Net-(J39-Pad76)">
+      <node ref="J39" pin="76"/>
+    </net>
+    <net code="158" name="Net-(J39-Pad77)">
+      <node ref="J39" pin="77"/>
+    </net>
+    <net code="159" name="Net-(J39-Pad79)">
+      <node ref="J39" pin="79"/>
+    </net>
+    <net code="160" name="Net-(J39-Pad8)">
+      <node ref="J39" pin="8"/>
+    </net>
+    <net code="161" name="Net-(J39-Pad9)">
+      <node ref="J39" pin="9"/>
+    </net>
+    <net code="162" name="Net-(J39-Pad101)">
+      <node ref="J39" pin="101"/>
+    </net>
+    <net code="163" name="Net-(J39-Pad103)">
+      <node ref="J39" pin="103"/>
+    </net>
+    <net code="164" name="Net-(J39-Pad105)">
+      <node ref="J39" pin="105"/>
+    </net>
+    <net code="165" name="Net-(J39-Pad107)">
+      <node ref="J39" pin="107"/>
+    </net>
+    <net code="166" name="Net-(J39-Pad109)">
+      <node ref="J39" pin="109"/>
+    </net>
+    <net code="167" name="Net-(J39-Pad111)">
+      <node ref="J39" pin="111"/>
+    </net>
+    <net code="168" name="Net-(J39-Pad113)">
+      <node ref="J39" pin="113"/>
+    </net>
+    <net code="169" name="Net-(J39-Pad114)">
+      <node ref="J39" pin="114"/>
+      <node ref="J40" pin="4"/>
+    </net>
+    <net code="170" name="Net-(J39-Pad117)">
+      <node ref="J39" pin="117"/>
+    </net>
+    <net code="171" name="Net-(J39-Pad118)">
+      <node ref="J39" pin="118"/>
+    </net>
+    <net code="172" name="Net-(J39-Pad119)">
+      <node ref="J39" pin="119"/>
+    </net>
+    <net code="173" name="Net-(J39-Pad120)">
+      <node ref="J39" pin="120"/>
+    </net>
+    <net code="174" name="Net-(J39-Pad121)">
+      <node ref="J39" pin="121"/>
+    </net>
+    <net code="175" name="Net-(J39-Pad122)">
+      <node ref="J40" pin="3"/>
+      <node ref="J39" pin="122"/>
+    </net>
+    <net code="176" name="Net-(J39-Pad123)">
+      <node ref="J39" pin="123"/>
+    </net>
+    <net code="177" name="Net-(J39-Pad124)">
+      <node ref="J40" pin="2"/>
+      <node ref="J39" pin="124"/>
+    </net>
+    <net code="178" name="Net-(J39-Pad125)">
+      <node ref="J39" pin="125"/>
+    </net>
+    <net code="179" name="Net-(J39-Pad126)">
+      <node ref="J40" pin="1"/>
+      <node ref="J39" pin="126"/>
+    </net>
+    <net code="180" name="Net-(J39-Pad127)">
+      <node ref="J39" pin="127"/>
+    </net>
+    <net code="181" name="Net-(J39-Pad128)">
+      <node ref="J39" pin="128"/>
+    </net>
+    <net code="182" name="Net-(J39-Pad129)">
+      <node ref="J39" pin="129"/>
+    </net>
+    <net code="183" name="Net-(J39-Pad130)">
+      <node ref="J39" pin="130"/>
+    </net>
+    <net code="184" name="Net-(J39-Pad131)">
+      <node ref="J39" pin="131"/>
+    </net>
+    <net code="185" name="Net-(J39-Pad132)">
+      <node ref="J39" pin="132"/>
+    </net>
+    <net code="186" name="Net-(J39-Pad133)">
+      <node ref="J39" pin="133"/>
+    </net>
+    <net code="187" name="Net-(J39-Pad134)">
+      <node ref="J39" pin="134"/>
+    </net>
+    <net code="188" name="Net-(J39-Pad137)">
+      <node ref="J39" pin="137"/>
+    </net>
+    <net code="189" name="Net-(J39-Pad138)">
+      <node ref="J39" pin="138"/>
+    </net>
+    <net code="190" name="Net-(J39-Pad139)">
+      <node ref="J39" pin="139"/>
+    </net>
+    <net code="191" name="Net-(J39-Pad140)">
+      <node ref="J39" pin="140"/>
+    </net>
+    <net code="192" name="Net-(J39-Pad141)">
+      <node ref="J39" pin="141"/>
+    </net>
+    <net code="193" name="Net-(J39-Pad142)">
+      <node ref="J39" pin="142"/>
+    </net>
+    <net code="194" name="Net-(J39-Pad143)">
+      <node ref="J39" pin="143"/>
+    </net>
+    <net code="195" name="Net-(J39-Pad144)">
+      <node ref="J39" pin="144"/>
+    </net>
+    <net code="196" name="Net-(J39-Pad145)">
+      <node ref="J39" pin="145"/>
+    </net>
+    <net code="197" name="Net-(J39-Pad146)">
+      <node ref="J39" pin="146"/>
+    </net>
+    <net code="198" name="Net-(J39-Pad147)">
+      <node ref="J39" pin="147"/>
+    </net>
+    <net code="199" name="Net-(J39-Pad148)">
+      <node ref="J39" pin="148"/>
+    </net>
+    <net code="200" name="Net-(J39-Pad149)">
+      <node ref="J39" pin="149"/>
+    </net>
+    <net code="201" name="Net-(J39-Pad150)">
+      <node ref="J39" pin="150"/>
+    </net>
+    <net code="202" name="Net-(J39-Pad151)">
+      <node ref="J39" pin="151"/>
+    </net>
+    <net code="203" name="Net-(J39-Pad152)">
+      <node ref="J39" pin="152"/>
+    </net>
+    <net code="204" name="Net-(J39-Pad153)">
+      <node ref="J39" pin="153"/>
+    </net>
+    <net code="205" name="Net-(J39-Pad154)">
+      <node ref="J39" pin="154"/>
+    </net>
+    <net code="206" name="Net-(J39-Pad155)">
+      <node ref="J39" pin="155"/>
+    </net>
+    <net code="207" name="Net-(J39-Pad156)">
+      <node ref="J39" pin="156"/>
+    </net>
+    <net code="208" name="Net-(J39-Pad157)">
+      <node ref="J39" pin="157"/>
+    </net>
+    <net code="209" name="Net-(J39-Pad159)">
+      <node ref="J39" pin="159"/>
+    </net>
+    <net code="210" name="Net-(J39-Pad82)">
+      <node ref="J39" pin="82"/>
+    </net>
+    <net code="211" name="Net-(J39-Pad83)">
+      <node ref="J39" pin="83"/>
+    </net>
+    <net code="212" name="Net-(J39-Pad84)">
+      <node ref="J39" pin="84"/>
+    </net>
+    <net code="213" name="Net-(J39-Pad85)">
+      <node ref="J39" pin="85"/>
+    </net>
+    <net code="214" name="Net-(J39-Pad86)">
+      <node ref="J39" pin="86"/>
+    </net>
+    <net code="215" name="Net-(J39-Pad87)">
+      <node ref="J39" pin="87"/>
+    </net>
+    <net code="216" name="Net-(J39-Pad88)">
+      <node ref="J39" pin="88"/>
+    </net>
+    <net code="217" name="Net-(J39-Pad89)">
+      <node ref="J39" pin="89"/>
+    </net>
+    <net code="218" name="Net-(J39-Pad90)">
+      <node ref="J39" pin="90"/>
+    </net>
+    <net code="219" name="Net-(J39-Pad91)">
+      <node ref="J39" pin="91"/>
+    </net>
+    <net code="220" name="Net-(J39-Pad92)">
+      <node ref="J39" pin="92"/>
+    </net>
+    <net code="221" name="Net-(J39-Pad95)">
+      <node ref="J39" pin="95"/>
+    </net>
+    <net code="222" name="Net-(J39-Pad97)">
+      <node ref="J39" pin="97"/>
+    </net>
+    <net code="223" name="Net-(J39-Pad99)">
+      <node ref="J39" pin="99"/>
+    </net>
+    <net code="224" name="GND">
+      <node ref="C45" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="U9" pin="5"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="U9" pin="8"/>
+      <node ref="U7" pin="8"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="U6" pin="8"/>
+      <node ref="U6" pin="5"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="C53" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C50" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U10" pin="5"/>
+      <node ref="U10" pin="8"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C55" pin="2"/>
+      <node ref="C54" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C56" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="J23" pin="8"/>
+      <node ref="R14" pin="2"/>
+      <node ref="J23" pin="6"/>
+      <node ref="J23" pin="4"/>
+      <node ref="J23" pin="32"/>
+      <node ref="J23" pin="30"/>
+      <node ref="J23" pin="28"/>
+      <node ref="J23" pin="26"/>
+      <node ref="R15" pin="2"/>
+      <node ref="J23" pin="24"/>
+      <node ref="J23" pin="22"/>
+      <node ref="J23" pin="20"/>
+      <node ref="J23" pin="2"/>
+      <node ref="C58" pin="2"/>
+      <node ref="J23" pin="18"/>
+      <node ref="J23" pin="16"/>
+      <node ref="J23" pin="14"/>
+      <node ref="C59" pin="2"/>
+      <node ref="J23" pin="12"/>
+      <node ref="J23" pin="10"/>
+      <node ref="C60" pin="2"/>
+      <node ref="C57" pin="2"/>
+      <node ref="U11" pin="5"/>
+      <node ref="U11" pin="8"/>
+      <node ref="J39" pin="14"/>
+      <node ref="J39" pin="2"/>
+      <node ref="J39" pin="35"/>
+      <node ref="J24" pin="8"/>
+      <node ref="J24" pin="6"/>
+      <node ref="J24" pin="4"/>
+      <node ref="J24" pin="2"/>
+      <node ref="J24" pin="18"/>
+      <node ref="J24" pin="16"/>
+      <node ref="J24" pin="14"/>
+      <node ref="J24" pin="12"/>
+      <node ref="J24" pin="10"/>
+      <node ref="J39" pin="55"/>
+      <node ref="J39" pin="78"/>
+      <node ref="J39" pin="80"/>
+      <node ref="R10" pin="2"/>
+      <node ref="X1" pin="82"/>
+      <node ref="X1" pin="78"/>
+      <node ref="X1" pin="77"/>
+      <node ref="X1" pin="75"/>
+      <node ref="X1" pin="71"/>
+      <node ref="X1" pin="70"/>
+      <node ref="J39" pin="116"/>
+      <node ref="X1" pin="68"/>
+      <node ref="X1" pin="64"/>
+      <node ref="X1" pin="62"/>
+      <node ref="X1" pin="48"/>
+      <node ref="X1" pin="44"/>
+      <node ref="X1" pin="40"/>
+      <node ref="X1" pin="33"/>
+      <node ref="X1" pin="31"/>
+      <node ref="X1" pin="28"/>
+      <node ref="X1" pin="27"/>
+      <node ref="X1" pin="22"/>
+      <node ref="X1" pin="21"/>
+      <node ref="X1" pin="11"/>
+      <node ref="J45" pin="1"/>
+      <node ref="J39" pin="136"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J39" pin="158"/>
+      <node ref="J39" pin="160"/>
+      <node ref="J39" pin="81"/>
+      <node ref="C44" pin="2"/>
+      <node ref="U8" pin="5"/>
+      <node ref="J39" pin="93"/>
+      <node ref="J39" pin="94"/>
+      <node ref="U8" pin="8"/>
+      <node ref="J22" pin="1"/>
+      <node ref="J21" pin="1"/>
+      <node ref="J19" pin="1"/>
+      <node ref="J17" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J20" pin="13"/>
+      <node ref="J10" pin="4"/>
+      <node ref="J10" pin="3"/>
+      <node ref="J10" pin="2"/>
+      <node ref="J10" pin="1"/>
+      <node ref="J9" pin="4"/>
+      <node ref="J9" pin="3"/>
+      <node ref="J9" pin="2"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J8" pin="3"/>
+      <node ref="J8" pin="4"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J4" pin="4"/>
+      <node ref="U4" pin="1"/>
+      <node ref="J7" pin="4"/>
+      <node ref="J7" pin="3"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J5" pin="3"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J12" pin="4"/>
+      <node ref="J12" pin="3"/>
+      <node ref="J12" pin="2"/>
+      <node ref="J12" pin="1"/>
+      <node ref="J11" pin="4"/>
+      <node ref="J11" pin="3"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="J11" pin="2"/>
+      <node ref="J11" pin="1"/>
+    </net>
+    <net code="225" name="Net-(J39-Pad96)">
+      <node ref="J39" pin="96"/>
+      <node ref="J40" pin="13"/>
+    </net>
+    <net code="226" name="Net-(J39-Pad98)">
+      <node ref="J39" pin="98"/>
+      <node ref="J40" pin="12"/>
+    </net>
+    <net code="227" name="Net-(J39-Pad100)">
+      <node ref="J39" pin="100"/>
+      <node ref="J40" pin="11"/>
+    </net>
+    <net code="228" name="Net-(J39-Pad102)">
+      <node ref="J39" pin="102"/>
+      <node ref="J40" pin="10"/>
+    </net>
+    <net code="229" name="Net-(J39-Pad104)">
+      <node ref="J39" pin="104"/>
+      <node ref="J40" pin="9"/>
+    </net>
+    <net code="230" name="Net-(J39-Pad106)">
+      <node ref="J40" pin="8"/>
+      <node ref="J39" pin="106"/>
+    </net>
+    <net code="231" name="Net-(J39-Pad108)">
+      <node ref="J39" pin="108"/>
+      <node ref="J40" pin="7"/>
+    </net>
+    <net code="232" name="Net-(J39-Pad110)">
+      <node ref="J40" pin="6"/>
+      <node ref="J39" pin="110"/>
+    </net>
+    <net code="233" name="Net-(J39-Pad112)">
+      <node ref="J39" pin="112"/>
+      <node ref="J40" pin="5"/>
+    </net>
+  </nets>
+</export>

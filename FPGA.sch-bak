@@ -1,0 +1,412 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 10
+Title ""
+Date "2021-01-22"
+Rev "ae_v1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Author: Jinyong Kim"
+$EndDescr
+$Comp
+L fdm_gen2_v1-rescue:OPAL_KELLY-OSU_SIM_BASIC J39
+U 1 1 5FD5A3B4
+P 3100 3700
+F 0 "J39" H 3100 6015 50  0000 C CNN
+F 1 "OPAL_KELLY" H 3100 5924 50  0000 C CNN
+F 2 "OSU_SIM_BASIC:OPAL_KELLY" H 3100 3700 50  0001 C CNN
+F 3 "DOCUMENTATION" H 3100 3700 50  0001 C CNN
+	1    3100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L fdm_gen2_v1-rescue:OPAL_KELLY-OSU_SIM_BASIC J39
+U 2 1 5FD5A439
+P 7200 3700
+F 0 "J39" H 7200 6015 50  0000 C CNN
+F 1 "OPAL_KELLY" H 7200 5924 50  0000 C CNN
+F 2 "OSU_SIM_BASIC:OPAL_KELLY" H 7200 3700 50  0001 C CNN
+F 3 "DOCUMENTATION" H 7200 3700 50  0001 C CNN
+	2    7200 3700
+	1    0    0    -1  
+$EndComp
+Text HLabel 9700 950  2    50   BiDi ~ 0
+VDD_1p8
+Text HLabel 9700 1050 2    50   BiDi ~ 0
+VDD_5p5
+Text HLabel 9700 1150 2    50   BiDi ~ 0
+GND
+Wire Wire Line
+	9200 950  9700 950 
+Wire Wire Line
+	9200 1050 9700 1050
+Wire Wire Line
+	9700 1150 9200 1150
+Text Label 9200 950  0    50   ~ 0
+VDD_1p8
+Text Label 9200 1050 0    50   ~ 0
+VDD_5p5
+Text Label 9200 1150 0    50   ~ 0
+GND
+Wire Wire Line
+	1950 1750 1950 1850
+Wire Wire Line
+	1950 1750 2150 1750
+Wire Wire Line
+	1950 1950 2150 1950
+Wire Wire Line
+	2150 1850 1950 1850
+Connection ~ 1950 1850
+Wire Wire Line
+	1950 1850 1950 1950
+Wire Wire Line
+	1950 1750 1450 1750
+Connection ~ 1950 1750
+Text Label 1850 1750 2    50   ~ 0
+VDD_5p5
+Wire Wire Line
+	4050 1750 4500 1750
+Text Label 4500 1750 2    50   ~ 0
+GND
+Wire Wire Line
+	4050 2350 4500 2350
+Text Label 4500 2350 2    50   ~ 0
+GND
+Wire Wire Line
+	4050 3450 4500 3450
+Text Label 4500 3450 2    50   ~ 0
+VDD_1p8
+Text Label 4150 3750 0    50   ~ 0
+FPGA_CLK_BACKUP
+Wire Wire Line
+	4050 4450 4500 4450
+Text Label 4500 4450 2    50   ~ 0
+VDD_1p8
+Wire Wire Line
+	4050 5550 4500 5550
+Text Label 4500 5550 2    50   ~ 0
+GND
+Wire Wire Line
+	4050 5650 4500 5650
+Text Label 4500 5650 2    50   ~ 0
+GND
+Wire Wire Line
+	1700 4450 2150 4450
+Text Label 1700 4450 0    50   ~ 0
+GND
+Wire Wire Line
+	1700 3450 2150 3450
+Text Label 1700 3450 0    50   ~ 0
+GND
+Wire Wire Line
+	5800 1750 6250 1750
+Text Label 5800 1750 0    50   ~ 0
+GND
+Wire Wire Line
+	5800 2350 6250 2350
+Text Label 5800 2350 0    50   ~ 0
+GND
+Wire Wire Line
+	8150 2350 8600 2350
+Text Label 8600 2350 2    50   ~ 0
+GND
+Wire Wire Line
+	8150 3450 8600 3450
+Text Label 8600 3450 2    50   ~ 0
+GND
+Wire Wire Line
+	8150 4450 8600 4450
+Text Label 8600 4450 2    50   ~ 0
+GND
+Wire Wire Line
+	8150 5550 8600 5550
+Text Label 8600 5550 2    50   ~ 0
+GND
+Wire Wire Line
+	8150 5650 8600 5650
+Text Label 8600 5650 2    50   ~ 0
+GND
+Text HLabel 1600 2450 0    50   Output ~ 0
+BE_ADC_CLK
+Text HLabel 1600 2550 0    50   Output ~ 0
+BE_ADC_RST
+Text HLabel 1600 2650 0    50   Output ~ 0
+BE_CTL_IB
+Text HLabel 1600 2850 0    50   Input ~ 0
+BE_ADC_DO<0>
+Text HLabel 1600 2950 0    50   Input ~ 0
+BE_ADC_DO<1>
+Text HLabel 1600 3050 0    50   Input ~ 0
+BE_ADC_DO<2>
+Text HLabel 1600 3150 0    50   Input ~ 0
+BE_ADC_DO<3>
+Text HLabel 1600 3250 0    50   Input ~ 0
+BE_ADC_DO<4>
+Text HLabel 1600 3350 0    50   Input ~ 0
+BE_ADC_DO<5>
+Text HLabel 1600 3550 0    50   Input ~ 0
+BE_ADC_DO<6>
+Text HLabel 1600 3650 0    50   Input ~ 0
+BE_ADC_DO<7>
+Text HLabel 1600 3750 0    50   Input ~ 0
+BE_ADC_DO<8>
+Text HLabel 1600 3850 0    50   Input ~ 0
+BE_ADC_DO<9>
+Text HLabel 1600 3950 0    50   Input ~ 0
+BE_ADC_DO<10>
+Text HLabel 1600 4050 0    50   Input ~ 0
+BE_ADC_SMPO
+Text Notes 1650 2350 2    50   ~ 0
+Digital Output from FPGA
+Text Notes 800  3000 3    50   ~ 0
+Digital Input to FPGA
+Wire Wire Line
+	2150 2450 1600 2450
+Wire Wire Line
+	1600 2550 2150 2550
+Wire Wire Line
+	2150 2650 1600 2650
+Wire Wire Line
+	1600 2850 2150 2850
+Wire Wire Line
+	2150 2950 1600 2950
+Wire Wire Line
+	1600 3050 2150 3050
+Wire Wire Line
+	2150 3150 1600 3150
+Wire Wire Line
+	1600 3250 2150 3250
+Wire Wire Line
+	2150 3350 1600 3350
+Wire Wire Line
+	1600 3550 2150 3550
+Wire Wire Line
+	2150 3650 1600 3650
+Wire Wire Line
+	1600 3750 2150 3750
+Wire Wire Line
+	2150 3850 1600 3850
+Wire Wire Line
+	1600 3950 2150 3950
+Wire Wire Line
+	2150 4050 1600 4050
+Wire Wire Line
+	4050 3750 4950 3750
+Text HLabel 4950 3750 2    50   Input ~ 0
+FPGA_CLK_BACKUP
+Wire Wire Line
+	6250 4450 5800 4450
+Text Label 5800 4450 0    50   ~ 0
+VDD_1p8
+Wire Wire Line
+	6250 3450 5800 3450
+Text Label 5800 3450 0    50   ~ 0
+VDD_1p8
+$Comp
+L fdm_gen2_v1-rescue:Conn_01x13_Male-Connector J40
+U 1 1 608BEE3F
+P 10250 3500
+F 0 "J40" H 10223 3430 50  0000 R CNN
+F 1 "Conn_01x13_Male" H 10223 3521 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical" H 10250 3500 50  0001 C CNN
+F 3 "~" H 10250 3500 50  0001 C CNN
+	1    10250 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9300 2450 9300 2900
+Wire Wire Line
+	9300 2900 10050 2900
+Wire Wire Line
+	9250 2550 9250 3000
+Wire Wire Line
+	9250 3000 10050 3000
+Wire Wire Line
+	9200 2650 9200 3100
+Wire Wire Line
+	9200 3100 10050 3100
+Wire Wire Line
+	9150 2750 9150 3200
+Wire Wire Line
+	9150 3200 10050 3200
+Wire Wire Line
+	9100 2850 9100 3300
+Wire Wire Line
+	9100 3300 10050 3300
+Wire Wire Line
+	9050 2950 9050 3400
+Wire Wire Line
+	9050 3400 10050 3400
+Wire Wire Line
+	9000 3050 9000 3500
+Wire Wire Line
+	9000 3500 10050 3500
+Wire Wire Line
+	8950 3150 8950 3600
+Wire Wire Line
+	8950 3600 10050 3600
+Wire Wire Line
+	8900 3250 8900 3700
+Wire Wire Line
+	8900 3700 10050 3700
+Wire Wire Line
+	8150 2450 9300 2450
+Wire Wire Line
+	8150 2550 9250 2550
+Wire Wire Line
+	8150 2650 9200 2650
+Wire Wire Line
+	8150 2750 9150 2750
+Wire Wire Line
+	8150 2850 9100 2850
+Wire Wire Line
+	8150 2950 9050 2950
+Wire Wire Line
+	8150 3050 9000 3050
+Wire Wire Line
+	8150 3150 8950 3150
+Wire Wire Line
+	8150 3250 8900 3250
+Wire Wire Line
+	8150 3350 8850 3350
+Wire Wire Line
+	8850 3350 8850 3800
+Wire Wire Line
+	8850 3800 10050 3800
+Wire Wire Line
+	8150 3750 8800 3750
+Wire Wire Line
+	8800 3750 8800 3900
+Wire Wire Line
+	8800 3900 10050 3900
+Wire Wire Line
+	8150 3850 8750 3850
+Wire Wire Line
+	8750 3850 8750 4000
+Wire Wire Line
+	8750 4000 10050 4000
+Wire Wire Line
+	8150 3950 8700 3950
+Wire Wire Line
+	8700 3950 8700 4100
+Wire Wire Line
+	8700 4100 10050 4100
+NoConn ~ 2150 2050
+NoConn ~ 2150 2150
+NoConn ~ 2150 2250
+NoConn ~ 2150 2350
+NoConn ~ 2150 2750
+NoConn ~ 2150 4150
+NoConn ~ 2150 4250
+NoConn ~ 2150 4350
+NoConn ~ 2150 4550
+NoConn ~ 2150 4650
+NoConn ~ 2150 4750
+NoConn ~ 2150 4850
+NoConn ~ 2150 4950
+NoConn ~ 2150 5050
+NoConn ~ 2150 5150
+NoConn ~ 2150 5250
+NoConn ~ 2150 5350
+NoConn ~ 2150 5450
+NoConn ~ 2150 5550
+NoConn ~ 2150 5650
+NoConn ~ 4050 5450
+NoConn ~ 4050 5350
+NoConn ~ 4050 5250
+NoConn ~ 4050 5150
+NoConn ~ 4050 5050
+NoConn ~ 4050 4950
+NoConn ~ 4050 4850
+NoConn ~ 4050 4750
+NoConn ~ 4050 4650
+NoConn ~ 4050 4550
+NoConn ~ 4050 4350
+NoConn ~ 4050 4250
+NoConn ~ 4050 4150
+NoConn ~ 4050 4050
+NoConn ~ 4050 3950
+NoConn ~ 4050 3850
+NoConn ~ 4050 3650
+NoConn ~ 4050 3550
+NoConn ~ 4050 3350
+NoConn ~ 4050 3250
+NoConn ~ 4050 3150
+NoConn ~ 4050 3050
+NoConn ~ 4050 2950
+NoConn ~ 4050 2850
+NoConn ~ 4050 2750
+NoConn ~ 4050 2650
+NoConn ~ 4050 2550
+NoConn ~ 4050 2450
+NoConn ~ 4050 2250
+NoConn ~ 4050 2150
+NoConn ~ 4050 2050
+NoConn ~ 4050 1950
+NoConn ~ 4050 1850
+NoConn ~ 6250 1850
+NoConn ~ 6250 1950
+NoConn ~ 6250 2050
+NoConn ~ 6250 2150
+NoConn ~ 6250 2250
+NoConn ~ 6250 2450
+NoConn ~ 6250 2550
+NoConn ~ 6250 2650
+NoConn ~ 6250 2750
+NoConn ~ 6250 2850
+NoConn ~ 6250 2950
+NoConn ~ 6250 3050
+NoConn ~ 6250 3150
+NoConn ~ 6250 3250
+NoConn ~ 6250 3350
+NoConn ~ 6250 3550
+NoConn ~ 6250 3650
+NoConn ~ 6250 3750
+NoConn ~ 6250 3850
+NoConn ~ 6250 3950
+NoConn ~ 6250 4050
+NoConn ~ 6250 4150
+NoConn ~ 6250 4250
+NoConn ~ 6250 4350
+NoConn ~ 6250 4550
+NoConn ~ 6250 4650
+NoConn ~ 6250 4750
+NoConn ~ 6250 4850
+NoConn ~ 6250 4950
+NoConn ~ 6250 5050
+NoConn ~ 6250 5150
+NoConn ~ 6250 5250
+NoConn ~ 6250 5350
+NoConn ~ 6250 5450
+NoConn ~ 6250 5550
+NoConn ~ 6250 5650
+NoConn ~ 8150 5450
+NoConn ~ 8150 5350
+NoConn ~ 8150 5250
+NoConn ~ 8150 5150
+NoConn ~ 8150 5050
+NoConn ~ 8150 4950
+NoConn ~ 8150 4850
+NoConn ~ 8150 4750
+NoConn ~ 8150 4650
+NoConn ~ 8150 4550
+NoConn ~ 8150 4350
+NoConn ~ 8150 4250
+NoConn ~ 8150 4150
+NoConn ~ 8150 4050
+NoConn ~ 8150 3650
+NoConn ~ 8150 3550
+NoConn ~ 8150 2250
+NoConn ~ 8150 2150
+NoConn ~ 8150 2050
+NoConn ~ 8150 1950
+NoConn ~ 8150 1850
+NoConn ~ 8150 1750
+Text Notes 9900 2700 0    50   ~ 0
+Testing Backup
+$EndSCHEMATC

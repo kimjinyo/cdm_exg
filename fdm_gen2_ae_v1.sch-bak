@@ -1,0 +1,1286 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 9
+Title ""
+Date "2021-01-22"
+Rev "ae_v1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 "Top Schematic for FDM Gen2 IC Test Board"
+Comment4 "Author: Jinyong Kim"
+$EndDescr
+$Sheet
+S 3650 4350 1600 1100
+U 5FA33148
+F0 "core" 50
+F1 "IC_core.sch" 50
+F2 "dut_VSS" B R 5250 4550 50 
+F3 "dut_PVDD" B R 5250 4650 50 
+F4 "GND" B R 5250 4450 50 
+F5 "dut_AE_VCM" B L 3650 4900 50 
+F6 "dut_AE_AVDD" B R 5250 4750 50 
+F7 "dut_AE_DVDD" B R 5250 4850 50 
+F8 "dut_AE_OP_LNA" B R 5250 5050 50 
+F9 "dut_AE_ON_LNA" B R 5250 5150 50 
+F10 "dut_AE_OUT" B R 5250 5350 50 
+F11 "dut_AE_EXT_FR_CK" I L 3650 5200 50 
+F12 "VDD" B R 5250 4950 50 
+$EndSheet
+$Sheet
+S 2800 1650 850  500 
+U 5FD41281
+F0 "Regulator_PVDD" 50
+F1 "linear_regulator.sch" 50
+F2 "VDD_5p5" B L 2800 1800 50 
+F3 "VDD" B R 3650 2000 50 
+F4 "GND" B L 2800 2000 50 
+$EndSheet
+$Sheet
+S 4850 1650 850  500 
+U 5FD4A42F
+F0 "Regulator_AVDD" 50
+F1 "linear_regulator.sch" 50
+F2 "VDD_5p5" B L 4850 1800 50 
+F3 "VDD" B R 5700 2000 50 
+F4 "GND" B L 4850 2000 50 
+$EndSheet
+$Sheet
+S 6950 1650 850  500 
+U 5FD4A441
+F0 "Regulator_DVDD" 50
+F1 "linear_regulator.sch" 50
+F2 "VDD_5p5" B L 6950 1800 50 
+F3 "VDD" B R 7800 2000 50 
+F4 "GND" B L 6950 2000 50 
+$EndSheet
+$Sheet
+S 2800 2650 850  500 
+U 5FD4A465
+F0 "Regulator_VCM" 50
+F1 "linear_regulator.sch" 50
+F2 "VDD_5p5" B L 2800 2800 50 
+F3 "VDD" B R 3650 3000 50 
+F4 "GND" B L 2800 3000 50 
+$EndSheet
+Wire Wire Line
+	3650 2000 4150 2000
+Text Label 4150 2000 2    50   ~ 0
+VDD
+Wire Wire Line
+	5250 4650 5750 4650
+Text Label 5750 4650 2    50   ~ 0
+DVDD
+Wire Wire Line
+	5700 2000 5900 2000
+Text Label 6200 2000 2    50   ~ 0
+AVDD
+Wire Wire Line
+	7800 2000 8000 2000
+Text Label 8300 2000 2    50   ~ 0
+DVDD
+Text Label 4150 3000 2    50   ~ 0
+VCM
+Wire Wire Line
+	2800 1800 2350 1800
+Wire Wire Line
+	2350 2000 2800 2000
+Text Label 2350 1800 0    50   ~ 0
+VDD_5p5
+Text Label 2350 2000 0    50   ~ 0
+GND
+Wire Wire Line
+	2800 2800 2350 2800
+Wire Wire Line
+	2350 3000 2800 3000
+Text Label 2350 2800 0    50   ~ 0
+VDD_5p5
+Text Label 2350 3000 0    50   ~ 0
+GND
+Wire Wire Line
+	4850 1800 4400 1800
+Wire Wire Line
+	4400 2000 4850 2000
+Text Label 4400 1800 0    50   ~ 0
+VDD_5p5
+Text Label 4400 2000 0    50   ~ 0
+GND
+Wire Wire Line
+	6950 1800 6500 1800
+Wire Wire Line
+	6500 2000 6950 2000
+Text Label 6500 1800 0    50   ~ 0
+VDD_5p5
+Text Label 6500 2000 0    50   ~ 0
+GND
+$Comp
+L fdm_gen2_v1-rescue:BANA_PWR-fdm_gen2 U3
+U 1 1 5FD7B6FE
+P 13200 2500
+F 0 "U3" H 13377 2553 60  0000 L CNN
+F 1 "BANA_PWR" H 13377 2447 60  0000 L CNN
+F 2 "MountingHole:MountingHole_6.4mm_M6_Pad" H 13200 2700 60  0001 C CNN
+F 3 "" H 13200 2700 60  0001 C CNN
+	1    13200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L fdm_gen2_v1-rescue:BANA_PWR-fdm_gen2 U4
+U 1 1 5FD7B76E
+P 13200 3250
+F 0 "U4" H 13377 3303 60  0000 L CNN
+F 1 "BANA_PWR" H 13377 3197 60  0000 L CNN
+F 2 "MountingHole:MountingHole_6.4mm_M6_Pad" H 13200 3450 60  0001 C CNN
+F 3 "" H 13200 3450 60  0001 C CNN
+	1    13200 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12950 2500 12250 2500
+Connection ~ 10950 2500
+Wire Wire Line
+	10950 2500 10500 2500
+Connection ~ 11600 2500
+Connection ~ 12250 2500
+Wire Wire Line
+	12950 3250 12500 3250
+Connection ~ 11600 3250
+Wire Wire Line
+	11600 3250 10950 3250
+Connection ~ 12250 3250
+$Comp
+L fdm_gen2_v1-rescue:GND-power #PWR01
+U 1 1 5FD81F5C
+P 12500 3400
+F 0 "#PWR01" H 12500 3150 50  0001 C CNN
+F 1 "GND" H 12505 3227 50  0000 C CNN
+F 2 "" H 12500 3400 50  0001 C CNN
+F 3 "" H 12500 3400 50  0001 C CNN
+	1    12500 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 3400 12500 3250
+Connection ~ 12500 3250
+Wire Wire Line
+	12500 3250 12250 3250
+Text Label 10500 2500 0    50   ~ 0
+VDD_5p5
+$Comp
+L fdm_gen2_v1-rescue:SMA-OSU_SIM_BASIC J11
+U 1 1 5FD8465C
+P 6800 4550
+F 0 "J11" V 6400 4550 60  0000 C CNN
+F 1 "SMA_LNA_OP" V 6300 4550 60  0000 C CNN
+F 2 "OSU_SIM_BASIC:SMA_TE" H 6800 4550 60  0001 C CNN
+F 3 "" H 6800 4550 60  0001 C CNN
+	1    6800 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L fdm_gen2_v1-rescue:SMA-OSU_SIM_BASIC J12
+U 1 1 5FD84FC2
+P 11950 1950
+F 0 "J12" V 11550 1950 60  0000 C CNN
+F 1 "SMA_5p5" V 11450 1900 60  0000 C CNN
+F 2 "OSU_SIM_BASIC:SMA_TE" H 11950 1950 60  0001 C CNN
+F 3 "" H 11950 1950 60  0001 C CNN
+	1    11950 1950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6500 4650 6500 4450
+Wire Wire Line
+	6500 4300 7100 4300
+Wire Wire Line
+	7100 4300 7100 4450
+Connection ~ 6500 4450
+Wire Wire Line
+	6500 4450 6500 4300
+Connection ~ 7100 4450
+Wire Wire Line
+	7100 4450 7100 4650
+Wire Wire Line
+	11650 2050 11650 1850
+Wire Wire Line
+	11650 1700 12250 1700
+Wire Wire Line
+	12250 1700 12250 1850
+Connection ~ 11650 1850
+Wire Wire Line
+	11650 1850 11650 1700
+Connection ~ 12250 1850
+Wire Wire Line
+	12250 1850 12250 2050
+Text Label 6850 4300 2    50   ~ 0
+GND
+Text Label 12000 1700 2    50   ~ 0
+GND
+Wire Wire Line
+	5250 4550 5400 4550
+Text Label 5750 4550 2    50   ~ 0
+GND
+$Comp
+L fdm_gen2_v1-rescue:Conn_01x01-Connector_Generic J17
+U 1 1 60EE9916
+P 12650 8050
+F 0 "J17" V 12616 7962 50  0000 R CNN
+F 1 "Conn_01x01" V 12525 7962 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 12650 8050 50  0001 C CNN
+F 3 "~" H 12650 8050 50  0001 C CNN
+	1    12650 8050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fdm_gen2_v1-rescue:Conn_01x01-Connector_Generic J19
+U 1 1 60EFBB1C
+P 13250 8050
+F 0 "J19" V 13216 7962 50  0000 R CNN
+F 1 "Conn_01x01" V 13125 7962 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13250 8050 50  0001 C CNN
+F 3 "~" H 13250 8050 50  0001 C CNN
+	1    13250 8050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fdm_gen2_v1-rescue:Conn_01x01-Connector_Generic J21
+U 1 1 60F0DB3B
+P 13850 8050
+F 0 "J21" V 13816 7962 50  0000 R CNN
+F 1 "Conn_01x01" V 13725 7962 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13850 8050 50  0001 C CNN
+F 3 "~" H 13850 8050 50  0001 C CNN
+	1    13850 8050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fdm_gen2_v1-rescue:Conn_01x01-Connector_Generic J22
+U 1 1 60F0DB42
+P 14450 8050
+F 0 "J22" V 14416 7962 50  0000 R CNN
+F 1 "Conn_01x01" V 14325 7962 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 14450 8050 50  0001 C CNN
+F 3 "~" H 14450 8050 50  0001 C CNN
+	1    14450 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12650 8250 12650 8450
+Wire Wire Line
+	12650 8450 13250 8450
+Wire Wire Line
+	14450 8450 14450 8250
+Connection ~ 12650 8450
+Wire Wire Line
+	12650 8450 12650 8700
+Wire Wire Line
+	13250 8250 13250 8450
+Connection ~ 13250 8450
+Wire Wire Line
+	13250 8450 13850 8450
+Wire Wire Line
+	13850 8250 13850 8450
+Connection ~ 13850 8450
+Wire Wire Line
+	13850 8450 14450 8450
+Text Label 12650 8700 1    50   ~ 0
+GND
+$Comp
+L fdm_gen2_v1-rescue:CP1-Device C11
+U 1 1 5F8140A8
+P 12250 2850
+F 0 "C11" H 12365 2941 50  0000 L CNN
+F 1 "500u" H 12365 2850 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 12365 2759 50  0000 L CNN
+F 3 "~" H 12250 2850 50  0001 C CNN
+	1    12250 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L fdm_gen2_v1-rescue:C-Device C9
+U 1 1 5F8142D0
+P 10950 2850
+F 0 "C9" H 11065 2896 50  0000 L CNN
+F 1 "0.1u" H 11065 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10988 2700 50  0001 C CNN
+F 3 "~" H 10950 2850 50  0001 C CNN
+	1    10950 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11600 2500 11600 2700
+$Comp
+L fdm_gen2_v1-rescue:C-Device C10
+U 1 1 5F82775F
+P 11600 2850
+F 0 "C10" H 11715 2896 50  0000 L CNN
+F 1 "0.1u" H 11715 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 11638 2700 50  0001 C CNN
+F 3 "~" H 11600 2850 50  0001 C CNN
+	1    11600 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10950 2500 10950 2700
+Wire Wire Line
+	12250 2500 12250 2700
+Wire Wire Line
+	10950 3000 10950 3250
+Wire Wire Line
+	11600 3000 11600 3250
+Wire Wire Line
+	12250 3000 12250 3250
+$Comp
+L fdm_gen2_v1-rescue:Conn_01x01-Connector_Generic J45
+U 1 1 5FA3C481
+P 15050 8050
+F 0 "J45" V 15016 7962 50  0000 R CNN
+F 1 "Conn_01x01" V 14925 7962 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 8050 50  0001 C CNN
+F 3 "~" H 15050 8050 50  0001 C CNN
+	1    15050 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15050 8450 15050 8250
+Wire Wire Line
+	14450 8450 15050 8450
+Wire Wire Line
+	5250 4450 5400 4450
+Wire Wire Line
+	5400 4450 5400 4550
+Connection ~ 5400 4550
+Wire Wire Line
+	5400 4550 5750 4550
+Wire Wire Line
+	5250 4750 5750 4750
+Wire Wire Line
+	5250 4850 5750 4850
+Text Label 5750 4750 2    50   ~ 0
+AVDD
+Text Label 5750 4850 2    50   ~ 0
+DVDD
+Wire Wire Line
+	5250 6150 5750 6150
+Text Label 5750 6150 2    50   ~ 0
+DVDD
+Wire Wire Line
+	5250 6050 5400 6050
+Text Label 5750 6050 2    50   ~ 0
+GND
+Wire Wire Line
+	5250 5950 5400 5950
+Wire Wire Line
+	5400 5950 5400 6050
+Connection ~ 5400 6050
+Wire Wire Line
+	5400 6050 5750 6050
+Wire Wire Line
+	5250 6250 5750 6250
+Wire Wire Line
+	5250 6350 5750 6350
+Text Label 5750 6250 2    50   ~ 0
+AVDD
+Text Label 5750 6350 2    50   ~ 0
+DVDD
+Wire Wire Line
+	5250 7650 5750 7650
+Text Label 5750 7650 2    50   ~ 0
+DVDD
+Wire Wire Line
+	5250 7550 5400 7550
+Text Label 5750 7550 2    50   ~ 0
+GND
+Wire Wire Line
+	5250 7450 5400 7450
+Wire Wire Line
+	5400 7450 5400 7550
+Connection ~ 5400 7550
+Wire Wire Line
+	5400 7550 5750 7550
+Wire Wire Line
+	5250 7750 5750 7750
+Wire Wire Line
+	5250 7850 5750 7850
+Text Label 5750 7750 2    50   ~ 0
+AVDD
+Text Label 5750 7850 2    50   ~ 0
+DVDD
+Wire Wire Line
+	5250 5050 6300 5050
+Wire Wire Line
+	6800 5050 6800 4850
+$Comp
+L fdm_gen2_v1-rescue:SMA-OSU_SIM_BASIC J14
+U 1 1 602F6247
+P 7700 4550
+F 0 "J14" V 7300 4550 60  0000 C CNN
+F 1 "SMA_LNA_ON" V 7200 4550 60  0000 C CNN
+F 2 "OSU_SIM_BASIC:SMA_TE" H 7700 4550 60  0001 C CNN
+F 3 "" H 7700 4550 60  0001 C CNN
+	1    7700 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7400 4650 7400 4450
+Wire Wire Line
+	7400 4300 8000 4300
+Wire Wire Line
+	8000 4300 8000 4450
+Connection ~ 7400 4450
+Wire Wire Line
+	7400 4450 7400 4300
+Connection ~ 8000 4450
+Wire Wire Line
+	8000 4450 8000 4650
+Text Label 7750 4300 2    50   ~ 0
+GND
+Wire Wire Line
+	5250 5150 7200 5150
+Wire Wire Line
+	7700 5150 7700 4850
+Connection ~ 9300 4350
+Wire Wire Line
+	9300 4350 9450 4350
+Wire Wire Line
+	9100 4350 9300 4350
+Text Label 9450 4700 1    50   ~ 0
+GND
+Wire Wire Line
+	9300 4950 9100 4950
+Connection ~ 9300 4950
+Wire Wire Line
+	9450 4950 9300 4950
+Wire Wire Line
+	9450 4350 9450 4950
+$Comp
+L fdm_gen2_v1-rescue:SMA-OSU_SIM_BASIC J16
+U 1 1 602FEE7F
+P 9200 4650
+F 0 "J16" V 9600 4650 60  0000 C CNN
+F 1 "SMA_VDD_5p5" V 9700 4650 60  0000 C CNN
+F 2 "OSU_SIM_BASIC:SMA_TE" H 9200 4650 60  0001 C CNN
+F 3 "" H 9200 4650 60  0001 C CNN
+	1    9200 4650
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2450 5500
+Wire Wire Line
+	2450 5500 2300 5500
+Wire Wire Line
+	2650 5500 2450 5500
+Text Label 2300 5150 3    50   ~ 0
+GND
+Wire Wire Line
+	2450 4900 2650 4900
+Connection ~ 2450 4900
+Wire Wire Line
+	2300 4900 2450 4900
+Wire Wire Line
+	2300 5500 2300 4900
+$Comp
+L fdm_gen2_v1-rescue:SMA-OSU_SIM_BASIC J1
+U 1 1 60351C5A
+P 2550 5200
+F 0 "J1" V 2150 5200 60  0000 C CNN
+F 1 "SMA_EXT_FR" V 2050 5200 60  0000 C CNN
+F 2 "OSU_SIM_BASIC:SMA_TE" H 2550 5200 60  0001 C CNN
+F 3 "" H 2550 5200 60  0001 C CNN
+	1    2550 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 5200 2900 5200
+Wire Wire Line
+	3050 4900 3650 4900
+Text Label 3050 4900 0    50   ~ 0
+VCM
+$Sheet
+S 3650 5850 1600 1100
+U 6040186A
+F0 "sheet6040185E" 50
+F1 "IC_core.sch" 50
+F2 "dut_VSS" B R 5250 6050 50 
+F3 "dut_PVDD" B R 5250 6150 50 
+F4 "GND" B R 5250 5950 50 
+F5 "dut_AE_VCM" B L 3650 6400 50 
+F6 "dut_AE_AVDD" B R 5250 6250 50 
+F7 "dut_AE_DVDD" B R 5250 6350 50 
+F8 "dut_AE_OP_LNA" B R 5250 6550 50 
+F9 "dut_AE_ON_LNA" B R 5250 6650 50 
+F10 "dut_AE_OUT" B R 5250 6850 50 
+F11 "dut_AE_EXT_FR_CK" I L 3650 6700 50 
+F12 "VDD" B R 5250 6450 50 
+$EndSheet
+$Sheet
+S 3650 7350 1600 1100
+U 604069A5
+F0 "sheet60406999" 50
+F1 "IC_core.sch" 50
+F2 "dut_VSS" B R 5250 7550 50 
+F3 "dut_PVDD" B R 5250 7650 50 
+F4 "GND" B R 5250 7450 50 
+F5 "dut_AE_VCM" B L 3650 7900 50 
+F6 "dut_AE_AVDD" B R 5250 7750 50 
+F7 "dut_AE_DVDD" B R 5250 7850 50 
+F8 "dut_AE_OP_LNA" B R 5250 8050 50 
+F9 "dut_AE_ON_LNA" B R 5250 8150 50 
+F10 "dut_AE_OUT" B R 5250 8350 50 
+F11 "dut_AE_EXT_FR_CK" I L 3650 8200 50 
+F12 "VDD" B R 5250 7950 50 
+$EndSheet
+Wire Wire Line
+	3050 6400 3650 6400
+Text Label 3050 6400 0    50   ~ 0
+VCM
+Wire Wire Line
+	3050 7900 3650 7900
+Text Label 3050 7900 0    50   ~ 0
+VCM
+Wire Wire Line
+	3650 6700 2900 6700
+Wire Wire Line
+	2900 6700 2900 5200
+Connection ~ 2900 5200
+Wire Wire Line
+	2900 5200 3650 5200
+Wire Wire Line
+	3650 8200 2900 8200
+Wire Wire Line
+	2900 8200 2900 6700
+Connection ~ 2900 6700
+Wire Wire Line
+	11600 3250 12250 3250
+Wire Wire Line
+	11600 2500 11950 2500
+Wire Wire Line
+	11950 2250 11950 2500
+Connection ~ 11950 2500
+Wire Wire Line
+	11950 2500 12250 2500
+Connection ~ 14450 8450
+$Comp
+L fdm_gen2_v1-rescue:Conn_01x01-Connector_Generic J18
+U 1 1 604DA756
+P 12650 8950
+F 0 "J18" V 12616 8862 50  0000 R CNN
+F 1 "Conn_01x01" V 12525 8862 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 12650 8950 50  0001 C CNN
+F 3 "~" H 12650 8950 50  0001 C CNN
+	1    12650 8950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fdm_gen2_v1-rescue:Conn_01x01-Connector_Generic J20
+U 1 1 604DA75C
+P 13250 8950
+F 0 "J20" V 13216 8862 50  0000 R CNN
+F 1 "Conn_01x01" V 13125 8862 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13250 8950 50  0001 C CNN
+F 3 "~" H 13250 8950 50  0001 C CNN
+	1    13250 8950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fdm_gen2_v1-rescue:Conn_01x01-Connector_Generic J23
+U 1 1 604DA762
+P 13850 8950
+F 0 "J23" V 13816 8862 50  0000 R CNN
+F 1 "Conn_01x01" V 13725 8862 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13850 8950 50  0001 C CNN
+F 3 "~" H 13850 8950 50  0001 C CNN
+	1    13850 8950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fdm_gen2_v1-rescue:Conn_01x01-Connector_Generic J26
+U 1 1 604DA768
+P 14450 8950
+F 0 "J26" V 14416 8862 50  0000 R CNN
+F 1 "Conn_01x01" V 14325 8862 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 14450 8950 50  0001 C CNN
+F 3 "~" H 14450 8950 50  0001 C CNN
+	1    14450 8950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12650 9150 12650 9350
+Wire Wire Line
+	12650 9350 13250 9350
+Wire Wire Line
+	14450 9350 14450 9150
+Connection ~ 12650 9350
+Wire Wire Line
+	12650 9350 12650 9600
+Wire Wire Line
+	13250 9150 13250 9350
+Connection ~ 13250 9350
+Wire Wire Line
+	13250 9350 13850 9350
+Wire Wire Line
+	13850 9150 13850 9350
+Connection ~ 13850 9350
+Wire Wire Line
+	13850 9350 14450 9350
+Text Label 12650 9600 1    50   ~ 0
+GND
+$Comp
+L fdm_gen2_v1-rescue:Conn_01x01-Connector_Generic J28
+U 1 1 604DA77A
+P 15050 8950
+F 0 "J28" V 15016 8862 50  0000 R CNN
+F 1 "Conn_01x01" V 14925 8862 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 8950 50  0001 C CNN
+F 3 "~" H 15050 8950 50  0001 C CNN
+	1    15050 8950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15050 9350 15050 9150
+Wire Wire Line
+	14450 9350 15050 9350
+Connection ~ 14450 9350
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 604EC158
+P 6450 5650
+AR Path="/5FA33148/604EC158" Ref="J?"  Part="1" 
+AR Path="/6040186A/604EC158" Ref="J?"  Part="1" 
+AR Path="/604069A5/604EC158" Ref="J?"  Part="1" 
+AR Path="/6040BB85/604EC158" Ref="J?"  Part="1" 
+AR Path="/604EC158" Ref="J4"  Part="1" 
+F 0 "J4" V 6322 5730 50  0000 L CNN
+F 1 "Conn_01x02" V 6413 5730 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6450 5650 50  0001 C CNN
+F 3 "~" H 6450 5650 50  0001 C CNN
+	1    6450 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 5450 6350 5350
+Wire Wire Line
+	6450 5450 6450 5350
+Wire Wire Line
+	7100 5350 7100 6850
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 605069C5
+P 6800 5650
+AR Path="/5FA33148/605069C5" Ref="J?"  Part="1" 
+AR Path="/6040186A/605069C5" Ref="J?"  Part="1" 
+AR Path="/604069A5/605069C5" Ref="J?"  Part="1" 
+AR Path="/6040BB85/605069C5" Ref="J?"  Part="1" 
+AR Path="/605069C5" Ref="J8"  Part="1" 
+F 0 "J8" V 6672 5730 50  0000 L CNN
+F 1 "Conn_01x02" V 6763 5730 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6800 5650 50  0001 C CNN
+F 3 "~" H 6800 5650 50  0001 C CNN
+	1    6800 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 5450 6700 5350
+Wire Wire Line
+	6800 5450 6800 5350
+Wire Wire Line
+	6800 5350 7100 5350
+Connection ~ 7100 5350
+Wire Wire Line
+	6700 5350 6450 5350
+Wire Wire Line
+	6350 5350 5250 5350
+Wire Wire Line
+	6350 5350 6450 5350
+Connection ~ 6350 5350
+Connection ~ 6450 5350
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6052D368
+P 6450 7150
+AR Path="/5FA33148/6052D368" Ref="J?"  Part="1" 
+AR Path="/6040186A/6052D368" Ref="J?"  Part="1" 
+AR Path="/604069A5/6052D368" Ref="J?"  Part="1" 
+AR Path="/6040BB85/6052D368" Ref="J?"  Part="1" 
+AR Path="/6052D368" Ref="J5"  Part="1" 
+F 0 "J5" V 6322 7230 50  0000 L CNN
+F 1 "Conn_01x02" V 6413 7230 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6450 7150 50  0001 C CNN
+F 3 "~" H 6450 7150 50  0001 C CNN
+	1    6450 7150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 6950 6350 6850
+Wire Wire Line
+	6450 6950 6450 6850
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6052D370
+P 6800 7150
+AR Path="/5FA33148/6052D370" Ref="J?"  Part="1" 
+AR Path="/6040186A/6052D370" Ref="J?"  Part="1" 
+AR Path="/604069A5/6052D370" Ref="J?"  Part="1" 
+AR Path="/6040BB85/6052D370" Ref="J?"  Part="1" 
+AR Path="/6052D370" Ref="J9"  Part="1" 
+F 0 "J9" V 6672 7230 50  0000 L CNN
+F 1 "Conn_01x02" V 6763 7230 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6800 7150 50  0001 C CNN
+F 3 "~" H 6800 7150 50  0001 C CNN
+	1    6800 7150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 6950 6700 6850
+Wire Wire Line
+	6800 6950 6800 6850
+Wire Wire Line
+	6700 6850 6450 6850
+Wire Wire Line
+	6350 6850 5250 6850
+Wire Wire Line
+	6350 6850 6450 6850
+Connection ~ 6350 6850
+Connection ~ 6450 6850
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 60534993
+P 6450 8650
+AR Path="/5FA33148/60534993" Ref="J?"  Part="1" 
+AR Path="/6040186A/60534993" Ref="J?"  Part="1" 
+AR Path="/604069A5/60534993" Ref="J?"  Part="1" 
+AR Path="/6040BB85/60534993" Ref="J?"  Part="1" 
+AR Path="/60534993" Ref="J6"  Part="1" 
+F 0 "J6" V 6322 8730 50  0000 L CNN
+F 1 "Conn_01x02" V 6413 8730 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6450 8650 50  0001 C CNN
+F 3 "~" H 6450 8650 50  0001 C CNN
+	1    6450 8650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 8450 6350 8350
+Wire Wire Line
+	6450 8450 6450 8350
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6053499B
+P 6800 8650
+AR Path="/5FA33148/6053499B" Ref="J?"  Part="1" 
+AR Path="/6040186A/6053499B" Ref="J?"  Part="1" 
+AR Path="/604069A5/6053499B" Ref="J?"  Part="1" 
+AR Path="/6040BB85/6053499B" Ref="J?"  Part="1" 
+AR Path="/6053499B" Ref="J10"  Part="1" 
+F 0 "J10" V 6672 8730 50  0000 L CNN
+F 1 "Conn_01x02" V 6763 8730 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6800 8650 50  0001 C CNN
+F 3 "~" H 6800 8650 50  0001 C CNN
+	1    6800 8650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 8450 6700 8350
+Wire Wire Line
+	6800 8450 6800 8350
+Wire Wire Line
+	6700 8350 6450 8350
+Wire Wire Line
+	6350 8350 5250 8350
+Wire Wire Line
+	6350 8350 6450 8350
+Connection ~ 6350 8350
+Connection ~ 6450 8350
+Wire Wire Line
+	10950 2500 11600 2500
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 606ED8BD
+P 6000 2300
+F 0 "J2" V 5872 2380 50  0000 L CNN
+F 1 "Conn_01x02" V 5963 2380 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6000 2300 50  0001 C CNN
+F 3 "~" H 6000 2300 50  0001 C CNN
+	1    6000 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 606F57E9
+P 8100 2300
+F 0 "J3" V 7972 2380 50  0000 L CNN
+F 1 "Conn_01x02" V 8063 2380 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8100 2300 50  0001 C CNN
+F 3 "~" H 8100 2300 50  0001 C CNN
+	1    8100 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 2100 8000 2000
+Connection ~ 8000 2000
+Wire Wire Line
+	8000 2000 8100 2000
+Wire Wire Line
+	8100 2100 8100 2000
+Connection ~ 8100 2000
+Wire Wire Line
+	8100 2000 8300 2000
+Wire Wire Line
+	5900 2100 5900 2000
+Connection ~ 5900 2000
+Wire Wire Line
+	5900 2000 6000 2000
+Wire Wire Line
+	6000 2100 6000 2000
+Connection ~ 6000 2000
+Wire Wire Line
+	6000 2000 6200 2000
+$Comp
+L exg_fdm_ver1-cache-2021-01-25-10-53-02:LTC6256 U1
+U 1 1 60116D1B
+P 11300 6000
+F 0 "U1" H 11300 6437 60  0000 C CNN
+F 1 "LTC6256" H 11300 6331 60  0000 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 11300 6300 60  0001 C CNN
+F 3 "" H 11300 6300 60  0001 C CNN
+	1    11300 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J15
+U 1 1 6013978A
+P 9100 5350
+F 0 "J15" H 9180 5392 50  0000 L CNN
+F 1 "Conn_01x03" H 9180 5301 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9100 5350 50  0001 C CNN
+F 3 "~" H 9100 5350 50  0001 C CNN
+	1    9100 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5350 8900 5350
+Wire Wire Line
+	8900 4650 8900 5250
+Wire Wire Line
+	11650 5850 12100 5850
+Text Label 12100 5850 2    50   ~ 0
+VDD
+Wire Wire Line
+	10950 6150 10550 6150
+Text Label 10550 6150 0    50   ~ 0
+GND
+Wire Wire Line
+	8900 5450 8900 5950
+Wire Wire Line
+	8900 5950 10350 5950
+Wire Wire Line
+	10950 6050 10550 6050
+Text Label 10550 6050 0    50   ~ 0
+VCM
+$Comp
+L exg_fdm_ver1-cache-2021-01-25-10-53-02:R R1
+U 1 1 6010FBEC
+P 10550 5700
+F 0 "R1" V 10343 5700 50  0000 C CNN
+F 1 "R" V 10434 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10480 5700 50  0001 C CNN
+F 3 "" H 10550 5700 50  0000 C CNN
+	1    10550 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10950 5850 10750 5850
+Wire Wire Line
+	10750 5850 10750 5700
+Wire Wire Line
+	10750 5700 10700 5700
+Wire Wire Line
+	10400 5700 10350 5700
+Wire Wire Line
+	10350 5700 10350 5950
+Connection ~ 10350 5950
+Wire Wire Line
+	10350 5950 10950 5950
+$Comp
+L fdm_gen2_v1-rescue:C-Device C1
+U 1 1 6012A686
+P 10550 5300
+F 0 "C1" H 10665 5346 50  0000 L CNN
+F 1 "0.1u" H 10665 5255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10588 5150 50  0001 C CNN
+F 3 "~" H 10550 5300 50  0001 C CNN
+	1    10550 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10750 5700 10750 5300
+Wire Wire Line
+	10750 5300 10700 5300
+Connection ~ 10750 5700
+Wire Wire Line
+	10400 5300 10350 5300
+Wire Wire Line
+	10350 5300 10350 5700
+Connection ~ 10350 5700
+NoConn ~ 11650 5950
+NoConn ~ 11650 6050
+NoConn ~ 11650 6150
+$Comp
+L exg_fdm_ver1-cache-2021-01-25-10-53-02:TEST_1P W9
+U 1 1 6015EA4E
+P 11050 5300
+F 0 "W9" H 11108 5463 50  0000 L CNN
+F 1 "TEST_1P" H 11108 5372 50  0000 L CNN
+F 2 "OSU_SIM_BASIC:Keystone_5019" H 11100 5300 50  0001 L CNN
+F 3 "" H 11250 5300 50  0000 C CNN
+	1    11050 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 5300 11050 5300
+Connection ~ 10750 5300
+Wire Notes Line
+	2000 1250 2000 3700
+Wire Notes Line
+	8750 3700 8750 1250
+Text Notes 2050 1400 0    50   ~ 0
+1.8 Voltage Regulators
+Wire Notes Line
+	10000 4800 13000 4800
+Wire Notes Line
+	13000 4800 13000 6500
+Wire Notes Line
+	13000 6500 10000 6500
+Wire Notes Line
+	10000 6500 10000 4800
+Text Notes 11950 4950 0    50   ~ 0
+Transimpedance Amplifier
+$Comp
+L exg_fdm_ver1-cache-2021-01-25-10-53-02:TEST_1P W7
+U 1 1 60209452
+P 6300 5000
+F 0 "W7" H 6358 5163 50  0000 L CNN
+F 1 "TEST_1P" H 6358 5072 50  0000 L CNN
+F 2 "OSU_SIM_BASIC:Keystone_5019" H 6350 5000 50  0001 L CNN
+F 3 "" H 6500 5000 50  0000 C CNN
+	1    6300 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 5000 6300 5050
+Connection ~ 6300 5050
+Wire Wire Line
+	6300 5050 6800 5050
+$Comp
+L exg_fdm_ver1-cache-2021-01-25-10-53-02:TEST_1P W8
+U 1 1 6021AB03
+P 7200 5100
+F 0 "W8" H 7258 5263 50  0000 L CNN
+F 1 "TEST_1P" H 7258 5172 50  0000 L CNN
+F 2 "OSU_SIM_BASIC:Keystone_5019" H 7250 5100 50  0001 L CNN
+F 3 "" H 7400 5100 50  0000 C CNN
+	1    7200 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5100 7200 5150
+Connection ~ 7200 5150
+Wire Wire Line
+	7200 5150 7700 5150
+$Comp
+L exg_fdm_ver1-cache-2021-01-25-10-53-02:TEST_1P W1
+U 1 1 6022CEB8
+P 5500 6550
+F 0 "W1" H 5558 6713 50  0000 L CNN
+F 1 "TEST_1P" H 5558 6622 50  0000 L CNN
+F 2 "OSU_SIM_BASIC:Keystone_5019" H 5550 6550 50  0001 L CNN
+F 3 "" H 5700 6550 50  0000 C CNN
+	1    5500 6550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 6550 5250 6550
+$Comp
+L exg_fdm_ver1-cache-2021-01-25-10-53-02:TEST_1P W2
+U 1 1 6023F42D
+P 5500 6650
+F 0 "W2" H 5558 6813 50  0000 L CNN
+F 1 "TEST_1P" H 5558 6722 50  0000 L CNN
+F 2 "OSU_SIM_BASIC:Keystone_5019" H 5550 6650 50  0001 L CNN
+F 3 "" H 5700 6650 50  0000 C CNN
+	1    5500 6650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 6650 5250 6650
+$Comp
+L exg_fdm_ver1-cache-2021-01-25-10-53-02:TEST_1P W3
+U 1 1 602495D5
+P 5500 8050
+F 0 "W3" H 5558 8213 50  0000 L CNN
+F 1 "TEST_1P" H 5558 8122 50  0000 L CNN
+F 2 "OSU_SIM_BASIC:Keystone_5019" H 5550 8050 50  0001 L CNN
+F 3 "" H 5700 8050 50  0000 C CNN
+	1    5500 8050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 8050 5250 8050
+$Comp
+L exg_fdm_ver1-cache-2021-01-25-10-53-02:TEST_1P W4
+U 1 1 602495DC
+P 5500 8150
+F 0 "W4" H 5558 8313 50  0000 L CNN
+F 1 "TEST_1P" H 5558 8222 50  0000 L CNN
+F 2 "OSU_SIM_BASIC:Keystone_5019" H 5550 8150 50  0001 L CNN
+F 3 "" H 5700 8150 50  0000 C CNN
+	1    5500 8150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 8150 5250 8150
+Wire Wire Line
+	6800 6850 7100 6850
+Connection ~ 7100 6850
+Wire Wire Line
+	7100 6850 7100 8350
+Wire Wire Line
+	6800 8350 7100 8350
+Wire Wire Line
+	5250 7950 5750 7950
+Text Label 5750 7950 2    50   ~ 0
+VDD
+Wire Wire Line
+	5250 6450 5750 6450
+Text Label 5750 6450 2    50   ~ 0
+VDD
+Wire Wire Line
+	5250 4950 5750 4950
+Text Label 5750 4950 2    50   ~ 0
+VDD
+Wire Wire Line
+	5250 9150 5750 9150
+Text Label 5750 9150 2    50   ~ 0
+DVDD
+Wire Wire Line
+	5250 9050 5400 9050
+Text Label 5750 9050 2    50   ~ 0
+GND
+Wire Wire Line
+	5250 8950 5400 8950
+Wire Wire Line
+	5400 8950 5400 9050
+Connection ~ 5400 9050
+Wire Wire Line
+	5400 9050 5750 9050
+Wire Wire Line
+	5250 9250 5750 9250
+Wire Wire Line
+	5250 9350 5750 9350
+Text Label 5750 9250 2    50   ~ 0
+AVDD
+Text Label 5750 9350 2    50   ~ 0
+DVDD
+$Sheet
+S 3650 8850 1600 1100
+U 6033DDBD
+F0 "sheet6033DDA4" 50
+F1 "IC_core.sch" 50
+F2 "dut_VSS" B R 5250 9050 50 
+F3 "dut_PVDD" B R 5250 9150 50 
+F4 "GND" B R 5250 8950 50 
+F5 "dut_AE_VCM" B L 3650 9400 50 
+F6 "dut_AE_AVDD" B R 5250 9250 50 
+F7 "dut_AE_DVDD" B R 5250 9350 50 
+F8 "dut_AE_OP_LNA" B R 5250 9550 50 
+F9 "dut_AE_ON_LNA" B R 5250 9650 50 
+F10 "dut_AE_OUT" B R 5250 9850 50 
+F11 "dut_AE_EXT_FR_CK" I L 3650 9700 50 
+F12 "VDD" B R 5250 9450 50 
+$EndSheet
+Wire Wire Line
+	3050 9400 3650 9400
+Text Label 3050 9400 0    50   ~ 0
+VCM
+Wire Wire Line
+	3650 9700 2900 9700
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6033DDC6
+P 6450 10150
+AR Path="/5FA33148/6033DDC6" Ref="J?"  Part="1" 
+AR Path="/6040186A/6033DDC6" Ref="J?"  Part="1" 
+AR Path="/604069A5/6033DDC6" Ref="J?"  Part="1" 
+AR Path="/6040BB85/6033DDC6" Ref="J?"  Part="1" 
+AR Path="/6033DDC6" Ref="J7"  Part="1" 
+F 0 "J7" V 6322 10230 50  0000 L CNN
+F 1 "Conn_01x02" V 6413 10230 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6450 10150 50  0001 C CNN
+F 3 "~" H 6450 10150 50  0001 C CNN
+	1    6450 10150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 9950 6350 9850
+Wire Wire Line
+	6450 9950 6450 9850
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6033DDCE
+P 6800 10150
+AR Path="/5FA33148/6033DDCE" Ref="J?"  Part="1" 
+AR Path="/6040186A/6033DDCE" Ref="J?"  Part="1" 
+AR Path="/604069A5/6033DDCE" Ref="J?"  Part="1" 
+AR Path="/6040BB85/6033DDCE" Ref="J?"  Part="1" 
+AR Path="/6033DDCE" Ref="J13"  Part="1" 
+F 0 "J13" V 6672 10230 50  0000 L CNN
+F 1 "Conn_01x02" V 6763 10230 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6800 10150 50  0001 C CNN
+F 3 "~" H 6800 10150 50  0001 C CNN
+	1    6800 10150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 9950 6700 9850
+Wire Wire Line
+	6800 9950 6800 9850
+Wire Wire Line
+	6700 9850 6450 9850
+Wire Wire Line
+	6350 9850 5250 9850
+Wire Wire Line
+	6350 9850 6450 9850
+Connection ~ 6350 9850
+Connection ~ 6450 9850
+$Comp
+L exg_fdm_ver1-cache-2021-01-25-10-53-02:TEST_1P W5
+U 1 1 6033DDDB
+P 5500 9550
+F 0 "W5" H 5558 9713 50  0000 L CNN
+F 1 "TEST_1P" H 5558 9622 50  0000 L CNN
+F 2 "OSU_SIM_BASIC:Keystone_5019" H 5550 9550 50  0001 L CNN
+F 3 "" H 5700 9550 50  0000 C CNN
+	1    5500 9550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 9550 5250 9550
+$Comp
+L exg_fdm_ver1-cache-2021-01-25-10-53-02:TEST_1P W6
+U 1 1 6033DDE2
+P 5500 9650
+F 0 "W6" H 5558 9813 50  0000 L CNN
+F 1 "TEST_1P" H 5558 9722 50  0000 L CNN
+F 2 "OSU_SIM_BASIC:Keystone_5019" H 5550 9650 50  0001 L CNN
+F 3 "" H 5700 9650 50  0000 C CNN
+	1    5500 9650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 9650 5250 9650
+Wire Wire Line
+	6800 9850 7100 9850
+Wire Wire Line
+	5250 9450 5750 9450
+Text Label 5750 9450 2    50   ~ 0
+VDD
+Wire Wire Line
+	2900 9700 2900 8200
+Connection ~ 2900 8200
+Wire Wire Line
+	7100 9850 7100 8350
+Connection ~ 7100 8350
+$Comp
+L fdm_gen2_v1-rescue:SMA-OSU_SIM_BASIC J?
+U 1 1 601D2707
+P 5250 3000
+AR Path="/5FA33148/601D2707" Ref="J?"  Part="1" 
+AR Path="/602C3570/601D2707" Ref="J?"  Part="1" 
+AR Path="/602C6FBE/601D2707" Ref="J?"  Part="1" 
+AR Path="/602D0335/601D2707" Ref="J?"  Part="1" 
+AR Path="/60374A1E/601D2707" Ref="J?"  Part="1" 
+AR Path="/60379D19/601D2707" Ref="J?"  Part="1" 
+AR Path="/6037EEC2/601D2707" Ref="J?"  Part="1" 
+AR Path="/6040186A/601D2707" Ref="J?"  Part="1" 
+AR Path="/604069A5/601D2707" Ref="J?"  Part="1" 
+AR Path="/6040BB85/601D2707" Ref="J?"  Part="1" 
+AR Path="/6033DDBD/601D2707" Ref="J?"  Part="1" 
+AR Path="/601D2707" Ref="J60"  Part="1" 
+F 0 "J60" V 5197 2823 60  0000 R CNN
+F 1 "SMA-OSU_SIM_BASIC" V 5303 2823 60  0000 R CNN
+F 2 "OSU_SIM_BASIC:SMA_TE" H 5250 3000 60  0001 C CNN
+F 3 "" H 5250 3000 60  0001 C CNN
+	1    5250 3000
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5350 3300 5750 3300
+Wire Wire Line
+	5150 3300 5350 3300
+Connection ~ 5350 3300
+Text Label 5750 3300 2    50   ~ 0
+GND
+Wire Wire Line
+	5150 2700 5350 2700
+Wire Wire Line
+	5750 2700 5350 2700
+Connection ~ 5350 2700
+Text Label 5750 2700 2    50   ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 601D2717
+P 4450 3300
+AR Path="/5FA33148/601D2717" Ref="J?"  Part="1" 
+AR Path="/6040186A/601D2717" Ref="J?"  Part="1" 
+AR Path="/604069A5/601D2717" Ref="J?"  Part="1" 
+AR Path="/6040BB85/601D2717" Ref="J?"  Part="1" 
+AR Path="/6033DDBD/601D2717" Ref="J?"  Part="1" 
+AR Path="/601D2717" Ref="J59"  Part="1" 
+F 0 "J59" V 4322 3380 50  0000 L CNN
+F 1 "Conn_01x02" V 4413 3380 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4450 3300 50  0001 C CNN
+F 3 "~" H 4450 3300 50  0001 C CNN
+	1    4450 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 3100 4350 3000
+Connection ~ 4350 3000
+Wire Wire Line
+	4350 3000 4450 3000
+Wire Wire Line
+	4450 3100 4450 3000
+Connection ~ 4450 3000
+Wire Wire Line
+	4450 3000 4750 3000
+$Comp
+L exg_fdm_ver1-cache-2021-01-25-10-53-02:TEST_1P W26
+U 1 1 601D2723
+P 4750 2900
+AR Path="/601D2723" Ref="W26"  Part="1" 
+AR Path="/5FA33148/601D2723" Ref="W?"  Part="1" 
+AR Path="/604069A5/601D2723" Ref="W?"  Part="1" 
+AR Path="/6040186A/601D2723" Ref="W?"  Part="1" 
+AR Path="/6040BB85/601D2723" Ref="W?"  Part="1" 
+AR Path="/6033DDBD/601D2723" Ref="W?"  Part="1" 
+F 0 "W26" H 4808 3063 50  0000 L CNN
+F 1 "TEST_1P" H 4808 2972 50  0000 L CNN
+F 2 "OSU_SIM_BASIC:Keystone_5019" H 4800 2900 50  0001 L CNN
+F 3 "" H 4950 2900 50  0000 C CNN
+	1    4750 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2900 4750 3000
+Connection ~ 4750 3000
+Wire Wire Line
+	4750 3000 4950 3000
+Wire Wire Line
+	3650 3000 4350 3000
+Wire Notes Line
+	2000 1250 8750 1250
+Wire Notes Line
+	2000 3700 8750 3700
+$EndSCHEMATC

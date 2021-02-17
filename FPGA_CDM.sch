@@ -1,0 +1,397 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 15 15
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L fdm_gen2_v1-rescue:OPAL_KELLY-OSU_SIM_BASIC J39
+U 1 1 5FD5A3B4
+P 2950 3650
+F 0 "J39" H 2950 5965 50  0000 C CNN
+F 1 "OPAL_KELLY" H 2950 5874 50  0000 C CNN
+F 2 "OSU_SIM_BASIC:OPAL_KELLY" H 2950 3650 50  0001 C CNN
+F 3 "DOCUMENTATION" H 2950 3650 50  0001 C CNN
+	1    2950 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L fdm_gen2_v1-rescue:OPAL_KELLY-OSU_SIM_BASIC J39
+U 2 1 5FD5A439
+P 7050 3650
+F 0 "J39" H 7050 5965 50  0000 C CNN
+F 1 "OPAL_KELLY" H 7050 5874 50  0000 C CNN
+F 2 "OSU_SIM_BASIC:OPAL_KELLY" H 7050 3650 50  0001 C CNN
+F 3 "DOCUMENTATION" H 7050 3650 50  0001 C CNN
+	2    7050 3650
+	1    0    0    -1  
+$EndComp
+Text HLabel 10200 4750 2    50   BiDi ~ 0
+VDD_1p8
+Text HLabel 10200 4850 2    50   BiDi ~ 0
+VDD_5p5
+Text HLabel 10200 4950 2    50   BiDi ~ 0
+GND
+Wire Wire Line
+	1800 1700 1800 1800
+Wire Wire Line
+	1800 1700 2000 1700
+Wire Wire Line
+	1800 1900 2000 1900
+Wire Wire Line
+	2000 1800 1800 1800
+Connection ~ 1800 1800
+Wire Wire Line
+	1800 1800 1800 1900
+Wire Wire Line
+	1800 1700 1300 1700
+Connection ~ 1800 1700
+Text Label 1300 1700 0    50   ~ 0
+VDD_5p5
+Wire Wire Line
+	3900 1700 4350 1700
+Text Label 4350 1700 2    50   ~ 0
+GND
+Wire Wire Line
+	3900 2300 4350 2300
+Text Label 4350 2300 2    50   ~ 0
+GND
+Wire Wire Line
+	3900 3400 4350 3400
+Text Label 4350 3400 2    50   ~ 0
+VDD_1p8
+Wire Wire Line
+	3900 4400 4350 4400
+Text Label 4350 4400 2    50   ~ 0
+VDD_1p8
+Wire Wire Line
+	3900 5500 4350 5500
+Text Label 4350 5500 2    50   ~ 0
+GND
+Wire Wire Line
+	3900 5600 4350 5600
+Text Label 4350 5600 2    50   ~ 0
+GND
+Wire Wire Line
+	1550 4400 2000 4400
+Text Label 1550 4400 0    50   ~ 0
+GND
+Wire Wire Line
+	1550 3400 2000 3400
+Text Label 1550 3400 0    50   ~ 0
+GND
+Wire Wire Line
+	5650 1700 6100 1700
+Text Label 5650 1700 0    50   ~ 0
+GND
+Wire Wire Line
+	5650 2300 6100 2300
+Text Label 5650 2300 0    50   ~ 0
+GND
+Wire Wire Line
+	8000 2300 8450 2300
+Text Label 8450 2300 2    50   ~ 0
+GND
+Wire Wire Line
+	8000 3400 8450 3400
+Text Label 8450 3400 2    50   ~ 0
+GND
+Wire Wire Line
+	8000 4400 8450 4400
+Text Label 8450 4400 2    50   ~ 0
+GND
+Wire Wire Line
+	8000 5500 8450 5500
+Text Label 8450 5500 2    50   ~ 0
+GND
+Wire Wire Line
+	8000 5600 8450 5600
+Text Label 8450 5600 2    50   ~ 0
+GND
+Wire Wire Line
+	6100 4400 5650 4400
+Text Label 5650 4400 0    50   ~ 0
+VDD_1p8
+NoConn ~ 2000 2000
+NoConn ~ 2000 2100
+NoConn ~ 2000 2200
+NoConn ~ 2000 2300
+NoConn ~ 2000 2700
+NoConn ~ 2000 4100
+NoConn ~ 2000 4200
+NoConn ~ 2000 4300
+NoConn ~ 2000 4500
+NoConn ~ 2000 4600
+NoConn ~ 2000 4700
+NoConn ~ 2000 4800
+NoConn ~ 2000 4900
+NoConn ~ 2000 5000
+NoConn ~ 2000 5100
+NoConn ~ 2000 5200
+NoConn ~ 2000 5300
+NoConn ~ 2000 5400
+NoConn ~ 2000 5500
+NoConn ~ 2000 5600
+NoConn ~ 3900 5400
+NoConn ~ 3900 5300
+NoConn ~ 3900 5200
+NoConn ~ 3900 5100
+NoConn ~ 3900 5000
+NoConn ~ 3900 4900
+NoConn ~ 3900 4800
+NoConn ~ 3900 4700
+NoConn ~ 3900 4600
+NoConn ~ 3900 4500
+NoConn ~ 3900 4300
+NoConn ~ 3900 4200
+NoConn ~ 3900 4100
+NoConn ~ 3900 4000
+NoConn ~ 3900 3900
+NoConn ~ 3900 3800
+NoConn ~ 3900 3600
+NoConn ~ 3900 3500
+NoConn ~ 3900 3300
+NoConn ~ 3900 3200
+NoConn ~ 3900 3100
+NoConn ~ 3900 3000
+NoConn ~ 3900 2900
+NoConn ~ 3900 2800
+NoConn ~ 3900 2700
+NoConn ~ 3900 2600
+NoConn ~ 3900 2500
+NoConn ~ 3900 2400
+NoConn ~ 3900 2200
+NoConn ~ 3900 2100
+NoConn ~ 3900 2000
+NoConn ~ 3900 1900
+NoConn ~ 3900 1800
+NoConn ~ 6100 1800
+NoConn ~ 6100 1900
+NoConn ~ 6100 2000
+NoConn ~ 6100 2100
+NoConn ~ 6100 2200
+NoConn ~ 6100 2400
+NoConn ~ 6100 2500
+NoConn ~ 6100 2600
+NoConn ~ 6100 2700
+NoConn ~ 6100 2800
+NoConn ~ 6100 2900
+NoConn ~ 6100 3000
+NoConn ~ 6100 3100
+NoConn ~ 6100 3200
+NoConn ~ 6100 3300
+NoConn ~ 6100 3500
+NoConn ~ 6100 3600
+NoConn ~ 6100 3700
+NoConn ~ 6100 3800
+NoConn ~ 6100 3900
+NoConn ~ 6100 4000
+NoConn ~ 6100 4100
+NoConn ~ 6100 4200
+NoConn ~ 6100 4300
+NoConn ~ 6100 4500
+NoConn ~ 6100 4600
+NoConn ~ 6100 4700
+NoConn ~ 6100 4800
+NoConn ~ 6100 4900
+NoConn ~ 6100 5000
+NoConn ~ 6100 5100
+NoConn ~ 6100 5200
+NoConn ~ 6100 5300
+NoConn ~ 6100 5400
+NoConn ~ 6100 5500
+NoConn ~ 6100 5600
+NoConn ~ 8000 5400
+NoConn ~ 8000 5300
+NoConn ~ 8000 5200
+NoConn ~ 8000 5100
+NoConn ~ 8000 5000
+NoConn ~ 8000 4900
+NoConn ~ 8000 4800
+NoConn ~ 8000 4700
+NoConn ~ 8000 4600
+NoConn ~ 8000 4500
+NoConn ~ 8000 4300
+NoConn ~ 8000 4200
+NoConn ~ 8000 4100
+NoConn ~ 8000 4000
+NoConn ~ 8000 3600
+NoConn ~ 8000 3500
+NoConn ~ 8000 2200
+NoConn ~ 8000 2100
+NoConn ~ 8000 2000
+NoConn ~ 8000 1900
+NoConn ~ 8000 1800
+NoConn ~ 8000 1700
+Text Label 1350 2600 0    50   ~ 0
+CODE_IN_1
+Text Label 1350 2400 0    50   ~ 0
+CODE_CLK_1
+Text Label 1350 2500 0    50   ~ 0
+CODE_RST_1
+Text Label 1350 2800 0    50   ~ 0
+AE_SCAN_IN_1
+Text Label 1350 2900 0    50   ~ 0
+AE_SCAN_OUT_1
+Wire Wire Line
+	2000 2900 1350 2900
+Wire Wire Line
+	2000 2800 1350 2800
+Wire Wire Line
+	2000 2500 1350 2500
+Wire Wire Line
+	2000 2400 1350 2400
+Wire Wire Line
+	2000 2600 1350 2600
+Text Label 1350 3000 0    50   ~ 0
+EXT_MDR_CLK_1
+Wire Wire Line
+	2000 3000 1350 3000
+Text Label 1350 3100 0    50   ~ 0
+REF_CLK_1
+Wire Wire Line
+	2000 3100 1350 3100
+Text Label 1350 3200 0    50   ~ 0
+BE_RST_1
+Wire Wire Line
+	2000 3200 1350 3200
+Text Label 1350 3300 0    50   ~ 0
+BE_SCAN_IN_1
+Wire Wire Line
+	2000 3300 1350 3300
+Text Label 1350 3500 0    50   ~ 0
+BE_SCAN_CLK_1
+Wire Wire Line
+	2000 3500 1350 3500
+Text Label 1350 3600 0    50   ~ 0
+SER_CLK_1
+Wire Wire Line
+	2000 3600 1350 3600
+Text Label 1350 3700 0    50   ~ 0
+DATA_OUT_1
+Wire Wire Line
+	2000 3700 1350 3700
+Text Label 1350 3800 0    50   ~ 0
+VALID_OUT_1
+Wire Wire Line
+	2000 3800 1350 3800
+Text Label 1350 3900 0    50   ~ 0
+SYS_RST_1
+Wire Wire Line
+	2000 3900 1350 3900
+NoConn ~ 3900 3700
+NoConn ~ 2000 4000
+Text Label 8650 2400 2    50   ~ 0
+REF_CLK_2
+Wire Wire Line
+	8000 2400 8650 2400
+Text Label 8650 2500 2    50   ~ 0
+BE_RST_2
+Wire Wire Line
+	8000 2500 8650 2500
+Text Label 8650 2600 2    50   ~ 0
+BE_SCAN_IN_2
+Wire Wire Line
+	8000 2600 8650 2600
+Text Label 8650 2700 2    50   ~ 0
+BE_SCAN_CLK_2
+Wire Wire Line
+	8000 2700 8650 2700
+Text Label 8650 2800 2    50   ~ 0
+SER_CLK_2
+Wire Wire Line
+	8000 2800 8650 2800
+Text Label 8650 2900 2    50   ~ 0
+DATA_OUT_2
+Wire Wire Line
+	8000 2900 8650 2900
+Text Label 8650 3000 2    50   ~ 0
+VALID_OUT_2
+Wire Wire Line
+	8000 3000 8650 3000
+NoConn ~ 8000 3700
+NoConn ~ 8000 3800
+NoConn ~ 8000 3900
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 602A7D0C
+P 9100 3200
+AR Path="/5FA33148/602A7D0C" Ref="J?"  Part="1" 
+AR Path="/602863A8/602A7D0C" Ref="J?"  Part="1" 
+AR Path="/6028AE47/602A7D0C" Ref="J?"  Part="1" 
+AR Path="/6078545A/602A7D0C" Ref="J85"  Part="1" 
+F 0 "J85" H 9180 3242 50  0000 L CNN
+F 1 "Conn_01x03" H 9180 3151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9100 3200 50  0001 C CNN
+F 3 "~" H 9100 3200 50  0001 C CNN
+	1    9100 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3100 8900 3100
+Wire Wire Line
+	8000 3200 8900 3200
+Wire Wire Line
+	8000 3300 8900 3300
+Text Notes 10200 4650 0    50   ~ 0
+POWER
+Text HLabel 9250 4750 2    50   BiDi ~ 0
+CODE_IN_1
+Text HLabel 9250 4850 2    50   BiDi ~ 0
+CODE_CLK_1
+Text HLabel 9250 4950 2    50   BiDi ~ 0
+CODE_RST_1
+Text HLabel 9250 5050 2    50   BiDi ~ 0
+AE_SCAN_IN_1
+Text HLabel 9250 5150 2    50   BiDi ~ 0
+AE_SCAN_OUT_1
+Text HLabel 9250 5250 2    50   BiDi ~ 0
+EXT_MDR_CLK_1
+Text HLabel 9250 5350 2    50   BiDi ~ 0
+REF_CLK_1
+Text HLabel 9250 5450 2    50   BiDi ~ 0
+BE_RST_1
+Text HLabel 9250 5550 2    50   BiDi ~ 0
+BE_SCAN_IN_1
+Text HLabel 9250 5650 2    50   BiDi ~ 0
+BE_SCAN_CLK_1
+Text HLabel 9250 5750 2    50   BiDi ~ 0
+SER_CLK_1
+Text HLabel 9250 5850 2    50   BiDi ~ 0
+DATA_OUT_1
+Text HLabel 9250 5950 2    50   BiDi ~ 0
+VALID_OUT_1
+Text HLabel 9250 6050 2    50   BiDi ~ 0
+SYS_RST_1
+Text Notes 10800 5200 2    50   ~ 0
+CHIP2 FPGA I/O\n
+Text HLabel 10200 5300 2    50   BiDi ~ 0
+REF_CLK_2
+Text HLabel 10200 5400 2    50   BiDi ~ 0
+BE_RST_2
+Text HLabel 10200 5500 2    50   BiDi ~ 0
+BE_SCAN_IN_2
+Text HLabel 10200 5600 2    50   BiDi ~ 0
+BE_SCAN_CLK_2
+Text HLabel 10200 5700 2    50   BiDi ~ 0
+SER_CLK_2
+Text HLabel 10200 5800 2    50   BiDi ~ 0
+DATA_OUT_2
+Text HLabel 10200 5900 2    50   BiDi ~ 0
+VALID_OUT_2
+Text Notes 9850 4650 2    50   ~ 0
+CHIP1 FPGA I/O\n
+Wire Wire Line
+	6100 3400 5650 3400
+Text Label 5650 3400 0    50   ~ 0
+VDD_1p8
+$EndSCHEMATC
